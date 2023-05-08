@@ -9,9 +9,9 @@ function ProductDetails() {
 
     return (
         <>
-            <div>{product.title}</div>
-            <img src={product.imageURL} alt='product' />
-            <div>{product.description}</div>
+            <div>{product?.title}</div>
+            <img src={product?.imageURL} alt='product' />
+            <div>{product?.description}</div>
         </>
     )
 }
