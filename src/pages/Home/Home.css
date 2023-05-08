@@ -1,0 +1,35 @@
+.feature-item {
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .feature-item {
+        min-height: 14.6875rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature-item {
+        min-height: 27rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .feature-item {
+        min-height: 19.625rem;
+    }
+}
+
+.feature-description {
+    color: var(--text-color);
+    line-height: 1.875rem;
+}
+
+.feature-title {
+    color: var(--third-color);
+}
+
+.feature-icon {}

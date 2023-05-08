@@ -4,6 +4,15 @@
   --third-color: #235789;
   --four-color: #F1D302;
   --five-color: #020100;
+  --text-color: #6F8BA4;
 
   --shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075)
+}
+
+.section-pad {
+  padding: 6.25rem 0;
+}
+
+.section-title {
+  color: var(--third-color);
 }
