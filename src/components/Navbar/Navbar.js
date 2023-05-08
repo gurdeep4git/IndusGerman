@@ -27,7 +27,7 @@ function Navbar() {
                                 else {
                                     return (
                                         <li key={index} className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a href="!#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 {item.title}
                                             </a>
                                             <ul className="dropdown-menu">
