@@ -29,7 +29,35 @@
 }
 
 .feature-title {
-    color: var(--third-color);
+    color: var(--five-color);
+    padding-bottom: 0.5rem;
+    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid var(--grey-0);
+    transition: 0.3s;
 }
 
-.feature-icon {}
+.feature-item:hover .feature-title {
+    border-bottom: 4px solid var(--first-color);
+}
+
+.bg-color {
+    background-color: var(--grey-0);
+}
+
+.service-item {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.service-title {
+    color: var(--five-color);
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.service-title:hover {
+    color: var(--first-color);
+}

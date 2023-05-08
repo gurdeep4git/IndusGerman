@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import './Home.css';
+import products from '../../data/products/products-list.json'
+import { Link } from 'react-router-dom';
 
 function Home() {
     const features = [
@@ -29,7 +31,7 @@ function Home() {
         <>
             <Banner />
 
-            <section className='features section-pad'>
+            <section className='section-pad'>
                 <div className="container">
                     <div className="row">
                         <h1 className='section-title mb-5 text-center'>Features</h1>
@@ -45,14 +47,30 @@ function Home() {
                                 )
                             })
                         }
-
                     </div>
                 </div>
             </section>
 
-            <section className='products'>
+            <section className='section-pad bg-color'>
                 <div className="container">
+                    <div className="row">
+                        <h1 className='section-title mb-5 text-center'>Products</h1>
+                        {
+                            products.map((product, index) => {
+                                return (
+                                    <div key={index} className="col-md-6 col-lg-4">
+                                        <div className="service-item py-4 px-4 py-lg-4 mb-3">
+                                            <Link className="service-title" to={product.link}>
+                                                {product.title}
+                                            </Link>
 
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+
+                    </div>
                 </div>
             </section>
         </>
