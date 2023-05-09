@@ -1,32 +1,14 @@
 import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import './Home.css';
-import products from '../../data/products/products-list.json'
+import products from '../../data/navbar.json'
+import data from '../../data/home.json';
 import { Link } from 'react-router-dom';
 
 function Home() {
-    const features = [
-        {
-            'icon': '',
-            'title': 'Quality Assurance',
-            'description': 'Every INDUS GERMAN product comes with an assurance of high quality and zero compromise in its production, performance, and safety.'
-        },
-        {
-            'icon': '',
-            'title': 'Private Labeling',
-            'description': 'Undertake private labeling of various products and ensure a timely delivery of all orders.'
-        },
-        {
-            'icon': '',
-            'title': 'Quality Products',
-            'description': 'Years of Experience, technology is the guide, quality is life, customer is the center, management is the guara.'
-        },
-        {
-            'icon': '',
-            'title': 'Highly Focused R&D',
-            'description': 'R&D and our perseverance to achieve the highest standards have given us the leader status in all our businesses.'
-        }
-    ]
+
+    const productsList = products.filter(i => i.title === 'Products')[0].subMenu;
+
     return (
         <>
             <Banner />
@@ -36,7 +18,7 @@ function Home() {
                     <div className="row">
                         <h1 className='section-title mb-5 text-center'>Features</h1>
                         {
-                            features.map((feature, index) => {
+                            data.features.map((feature, index) => {
                                 return (
                                     <div key={index} className="col-md-6 col-lg-3">
                                         <div className="feature-item py-4 px-4 py-lg-5 px-lg-4 mb-3 mb-lg-0">
@@ -56,7 +38,7 @@ function Home() {
                     <div className="row">
                         <h1 className='section-title mb-5 text-center'>Products</h1>
                         {
-                            products.map((product, index) => {
+                            productsList.map((product, index) => {
                                 return (
                                     <div key={index} className="col-md-6 col-lg-4">
                                         <div className="service-item py-4 px-4 py-lg-4 mb-3">
@@ -70,6 +52,23 @@ function Home() {
                             })
                         }
 
+                    </div>
+                </div>
+            </section>
+
+            <section className='section-pad'>
+                <div className="container">
+                    <div className="row">
+                        <h1 className='section-title mb-5 text-center'>About Us</h1>
+                        <div className='col'>
+                            {
+                                data.about.map((item, index) => {
+                                    return (
+                                        <p key={index} className='description'>{item}</p>
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
             </section>

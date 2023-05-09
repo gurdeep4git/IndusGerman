@@ -23,7 +23,8 @@
     }
 }
 
-.feature-description {
+.feature-description,
+.description {
     color: var(--text-color);
     line-height: 1.875rem;
 }
@@ -41,10 +42,6 @@
     border-bottom: 4px solid var(--first-color);
 }
 
-.bg-color {
-    background-color: var(--grey-0);
-}
-
 .service-item {
     background: #fff;
     border-radius: 5px;
@@ -60,4 +57,10 @@
 
 .service-title:hover {
     color: var(--first-color);
+}
+
+.description {
+    color: var(--text-color);
+    line-height: 1.875rem;
+    font-size: 1.125rem;
 }

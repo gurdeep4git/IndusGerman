@@ -32,3 +32,7 @@
   bottom: 0;
   margin: auto;
 }
+
+.bg-color {
+  background-color: var(--grey-0);
+}

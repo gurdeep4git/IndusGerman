@@ -1,0 +1,49 @@
+.footer {
+    color: var(--five-color);
+}
+
+.brand-text {}
+
+.brand-text h3 {}
+
+.brand-text span {
+    color: var(--first-color);
+}
+
+.brand-text p {
+    margin: 0;
+}
+
+.footer-products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-products ul li {
+    display: block;
+    padding: 0.3125rem 0;
+}
+
+.footer-products ul li:first-child {
+    padding-top: 0;
+}
+
+.footer-products ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--five-color);
+    transition: 0.3s;
+}
+
+.footer-products ul li a:hover {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+.footer-title {
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.125rem;
+}
