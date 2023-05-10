@@ -1,11 +1,20 @@
+import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Footer from './components/Footer/Footer';
+import WOW from 'wowjs';
 
 function App() {
+
+  useEffect(() => {
+    new WOW.WOW({
+      live: false
+    }).init();
+  }, []);
+
   return (
     <>
       <BrowserRouter>
