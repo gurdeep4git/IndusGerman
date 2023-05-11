@@ -1,0 +1,31 @@
+[
+    {
+        "key": "medical-devices",
+        "subProducts": [
+            {
+                "title": "Endovision HD Camera System",
+                "link": "/product/medical-devices/endovision-hd-camera-system"
+            },
+            {
+                "title": "CO2 Insufflators",
+                "link": "/product/medical-devices/co2-insufflators"
+            },
+            {
+                "title": "LED Light Source Touch Screen",
+                "link": "/product/medical-devices/led-light-source-touch-screen"
+            },
+            {
+                "title": "Fiber Optic Light Cable",
+                "link": "/product/medical-devices/fiber-optic-light-cable"
+            },
+            {
+                "title": "Suction & Irrigation Pump",
+                "link": "/product/medical-devices/suction-&-irrigation-pump"
+            },
+            {
+                "title": "Automatic Tourniquet",
+                "link": "/product/medical-devices/automatic-tourniquet"
+            }
+        ]
+    }
+]

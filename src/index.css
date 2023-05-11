@@ -9,6 +9,10 @@
   --shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075)
 }
 
+body {
+  color: var(--five-color);
+}
+
 .section-pad {
   padding: 6.25rem 0;
 }
