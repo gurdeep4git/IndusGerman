@@ -33,5 +33,22 @@
             "Nathanson Retractor",
             "Needle Holder"
         ]
+    },
+    {
+        "key": "hysteroscopy-set",
+        "title": "Hysteroscopy Set",
+        "imageURL": "",
+        "description": [
+            "Hysteroscopy is diagnostic as well as an operative procedure performed in gynecology. Hysteroscopy is used to diagnose, prevent, and treatment of diseases in female patients. We here at FORCETO INDIA continuously develop new products for use in hospitals, by gynecologists and medical specialists."
+        ],
+        "specification": [
+            "Hysteroscope Telescope",
+            "Hysteroscopy Sheath",
+            "Flexible and Semi Rigid Forceps",
+            "Hysteroscopy and Irrigation Pump",
+            "Monopolar and Bipolar Cautery Electrode",
+            "Resectoscope",
+            "Office Hysteroscope"
+        ]
     }
 ]

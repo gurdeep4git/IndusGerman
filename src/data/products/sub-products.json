@@ -235,5 +235,75 @@
             "Handle Type: Straight / Co-Axial / Ring"
         ],
         "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "hysteroscope-telescope",
+        "title": "Hysteroscope Telescope",
+        "imageURL": "/assets/images/hysteroscope-telescope.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "hysteroscopy-sheath",
+        "title": "Hysteroscopy Sheath",
+        "imageURL": "/assets/images/hysteroscopy-sheath.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "flexible-and-semi-rigid-forceps",
+        "title": "Flexible and Semi Rigid Forceps",
+        "imageURL": "/assets/images/flexible-and-semi-rigid-forceps.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "hysteroscopy-and-irrigation-pump",
+        "title": "Hysteroscopy and Irrigation Pump",
+        "imageURL": "/assets/images/hysteroscopy-and-irrigation-pump.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "monopolar-and-bipolar-cautery-electrode",
+        "title": "Monopolar and Bipolar Cautery Electrode",
+        "imageURL": "/assets/images/monopolar-and-bipolar-cautery-electrode.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "resectoscope",
+        "title": "Resectoscope",
+        "imageURL": "/assets/images/resectoscope.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "hysteroscopy-set",
+        "parentTitle": "Hysteroscopy Set",
+        "key": "office-hysteroscope",
+        "title": "Office Hysteroscope",
+        "imageURL": "/assets/images/office-hysteroscope.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
     }
 ]

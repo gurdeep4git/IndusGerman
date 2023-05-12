@@ -68,5 +68,38 @@
                 "link": "/product/laparoscopy/needle-holder"
             }
         ]
+    },
+    {
+        "key": "hysteroscopy-set",
+        "subProducts": [
+            {
+                "title": "Hysteroscope Telescope",
+                "link": "/product/hysteroscopy-set/hysteroscope-telescope"
+            },
+            {
+                "title": "Hysteroscopy Sheath",
+                "link": "/product/hysteroscopy-set/hysteroscopy-sheath"
+            },
+            {
+                "title": "Flexible and Semi Rigid Forceps",
+                "link": "/product/hysteroscopy-set/flexible-and-semi-rigid-forceps"
+            },
+            {
+                "title": "Hysteroscopy and Irrigation Pump",
+                "link": "/product/hysteroscopy-set/hysteroscopy-and-irrigation-pump"
+            },
+            {
+                "title": "Monopolar and Bipolar Cautery Electrode",
+                "link": "/product/hysteroscopy-set/monopolar-and-bipolar-cautery-electrode"
+            },
+            {
+                "title": "Resectoscope",
+                "link": "/product/hysteroscopy-set/resectoscope"
+            },
+            {
+                "title": "Office Hysteroscope",
+                "link": "/product/hysteroscopy-set/office-hysteroscope"
+            }
+        ]
     }
 ]
