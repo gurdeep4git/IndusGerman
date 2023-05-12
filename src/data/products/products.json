@@ -91,5 +91,41 @@
             "Esophagoscopy",
             "Micro Laryngoscopy"
         ]
+    },
+    {
+        "key": "arthroscopy-set",
+        "title": "Arthroscopy Set",
+        "imageURL": "/assets/images/arthroscopy-set.jpg",
+        "description": [
+            "Arthroscopy is a minimally invasive, Surgical Procedure (Diagnostic as well as therapeutic). Orthopedic operations include treatment on joints like - knees, shoulders, hips, elbows, and the upper ankle. We here at FORCETO INDIA have a facility to provide equipment and Instruments for arthroscopy, open joint operations, orthopedics, and sports medicine."
+        ],
+        "specification": [
+            "Arthroscope",
+            "Arthrosopy Pump",
+            "Arthroscopy Sheath",
+            "Hook Probe",
+            "Arthroscopy Punch",
+            "Arthroscopy Grasper",
+            "Automatic Tourniquet Single Dual"
+        ]
+    },
+    {
+        "key": "general-surgery",
+        "title": "General Surgery",
+        "imageURL": "/assets/images/general-surgery.jpg",
+        "description": [
+            "General surgery is a surgical specialty that focuses on the alimentary canal and abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix, bile ducts, and often the thyroid gland. The surgical sector covers the prevention, detection, conservative and operative treatment, aftercare, and rehabilitation of surgical conditions, injuries, and complications arising from injuries, as well as innate and acquired changes in shape and malformations of vessels, internal organs including the heart, supporting and movement organs and oncological surgery as well as reconstructive and transplant surgery. General surgery is a sub-set of surgery covering the basic provision of surgery (Basic Surgery) as well as aspects of visceral and vascular surgery.",
+            "We here at FORCETO INDIA have a facility to provide Instruments for diagnostic and operative treatments."
+        ],
+        "specification": [
+            "Forceps",
+            "Scissors",
+            "Needle Holders",
+            "Suction Tubes",
+            "Retractors (Hand/ Self/ Table)",
+            "Elevator / Probes / Curettes",
+            "Clamps",
+            "All Sets (Major/ Minor/ Hystectomy / Laparoscopy / D & C etc.)"
+        ]
     }
 ]

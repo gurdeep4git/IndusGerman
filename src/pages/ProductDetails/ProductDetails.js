@@ -29,6 +29,10 @@ function ProductDetails() {
                             <div className='p-details'>
                                 <h2 className='product-title'>{product?.title}</h2>
 
+                                {product?.imageURL &&
+                                    <img src={product?.imageURL} alt={product?.title} className='img-fluid' />
+                                }
+
                                 {
                                     product?.description.map((desc, index) => {
                                         return (
