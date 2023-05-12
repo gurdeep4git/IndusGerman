@@ -50,5 +50,46 @@
             "Resectoscope",
             "Office Hysteroscope"
         ]
+    },
+    {
+        "key": "endo-urology",
+        "title": "Endo Urology",
+        "imageURL": "",
+        "description": [
+            "We have been developing advanced instruments for open and endoscopic treatment of urological conditions. We here at FORCETO INDIA offer a complete range of products for cystoscopy, Resectoscope, Stricture treatment, Lithotripsy, Nephroscopy, Uretero-renoscopy, and all Pediatric applications. We supply solutions for all urological procedures and offer a comprehensive range of instruments for mono-polar, bi-polar, and laser-based operative procedures."
+        ],
+        "specification": [
+            "Cystoscopy Resectoscopes Telescopes",
+            "Cystoscopy Sheath",
+            "Resectoscopy Sheath",
+            "Working Elements",
+            "Visual Obturator",
+            "Urethrotome Sheath",
+            "Nephroscope",
+            "Ureterorenoscope",
+            "Laser Resectoscope Set",
+            "Pneumatic Lithotripter",
+            "Stone Punch Set"
+        ]
+    },
+    {
+        "key": "ent",
+        "title": "ENT",
+        "imageURL": "",
+        "description": [
+            "We here at FORCETO INDIA have a facility to provide types of equipment and Instruments for diagnostic and operative treatments in the ear, nose, and throat surgery.",
+            "Different kind of ENT surgery sets like:"
+        ],
+        "specification": [
+            "FESS set",
+            "Tympamoplasty",
+            "Stapedectomy",
+            "Septoplasty",
+            "Rhinoplasty",
+            "Bronchoscopy",
+            "Tonsillectomy",
+            "Esophagoscopy",
+            "Micro Laryngoscopy"
+        ]
     }
 ]
