@@ -28,7 +28,15 @@ function ProductDetails() {
                         <div className="col-lg-8">
                             <div className='p-details'>
                                 <h2 className='product-title'>{product?.title}</h2>
-                                <p className='product-text'>{product?.description}</p>
+
+                                {
+                                    product?.description.map((desc, index) => {
+                                        return (
+                                            <p key={index} className='product-text'>{desc}</p>
+                                        )
+                                    })
+                                }
+
                                 <ul className='product-specs'>
                                     {
                                         product?.specification.map((spec, index) => {

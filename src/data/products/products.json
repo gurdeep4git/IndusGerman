@@ -2,8 +2,10 @@
     {
         "key": "medical-devices",
         "title": "Medical Devices",
-        "imageURL": "/assets/images/endovision-camera.jpg",
-        "description": "We offer a wide range of Medical devices for different surgical procedures. Our line of devices is the latest technologies, ergonomically designed, easy to use, and assures a high level of operative and patient safety.",
+        "imageURL": "",
+        "description": [
+            "We offer a wide range of Medical devices for different surgical procedures. Our line of devices is the latest technologies, ergonomically designed, easy to use, and assures a high level of operative and patient safety."
+        ],
         "specification": [
             "Endovision HD Camera System",
             "CO2 Insufflators",
@@ -11,6 +13,25 @@
             "Fiber Optic Light Cable",
             "Suction & Irrigation Pump",
             "Automatic Tourniquet"
+        ]
+    },
+    {
+        "key": "laparoscopy",
+        "title": "Laparoscopy",
+        "imageURL": "",
+        "description": [
+            "Laparoscopy is an operation performed in the abdomen or pelvis using small incisions with the aid of an Endovision camera system. The laparoscope aids in diagnosis or therapeutic surgical procedures with a few small cuts in the abdomen. We here at FORCETO INDIA offer a complete range of products for standard and for specialist operative techniques. Our ergonomically designed technology provides the perfect instrument for every operation and assures long service life and ultimate workplace precision."
+        ],
+        "specification": [
+            "Laparoscopy Hand Instruments",
+            "Telescopes",
+            "Trocars And Accessories",
+            "Instruments For Gynecology",
+            "Single Puncture Laparoscope",
+            "Suction And Irrigation Cannula",
+            "Hemolock Clip Applicator",
+            "Nathanson Retractor",
+            "Needle Holder"
         ]
     }
 ]

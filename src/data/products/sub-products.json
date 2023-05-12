@@ -125,5 +125,115 @@
             "Accessories: Medical grade autoclavable silicon tubing & set of autoclavable cuff's."
         ],
         "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "telescopes",
+        "title": "Telescopes",
+        "imageURL": "/assets/images/telescopes.jpg",
+        "description": [
+            "Autoclavable / Rod Lens System / Fiber Optical Light Transmission"
+        ],
+        "specification": [
+            "Diameter: 5mm to 10mm",
+            "Lenght: Standard / Bariatric",
+            "Angle of View: 00 / 300 / 450"
+        ],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "trocars-and-accessories",
+        "title": "Trocars And Accessories",
+        "imageURL": "/assets/images/trocars-and-accessories.jpg",
+        "description": [],
+        "specification": [
+            "Diameter: 3mm to 20mm",
+            "Lenght: Paediatric / Standard / Bariatric",
+            "Valve Type: Multifunctional / Magnetic / Automatic",
+            "Obturator:Sharp / Blunt / Safety"
+        ],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "instruments-for-gynecology",
+        "title": "Instruments For Gynecology",
+        "imageURL": "/assets/images/instruments-for-gynecology.jpg",
+        "description": [],
+        "specification": [
+            "Lap Gynae Instruments and Accessories",
+            "Hystroscopy and TCRE",
+            "Obst. and Gynae Surgery Instruments"
+        ],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "single-puncture-laparoscope",
+        "title": "Single Puncture Laparoscope",
+        "imageURL": "/assets/images/single-puncture-laparoscope.jpg",
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "suction-and-irrigation-cannula",
+        "title": "Suction And Irrigation Cannula",
+        "imageURL": "/assets/images/suction-and-irrigation-cannula.jpg",
+        "description": [],
+        "specification": [
+            "Diameter: 3mm to 10mm",
+            "Lenght: Paediatric / Standard / Bariatric",
+            "Valve Type: Two Way / Trumpet"
+        ],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "hemolock-clip-applicator",
+        "title": "Hemolock Clip Applicator",
+        "imageURL": "/assets/images/hemolock-clip-applicator.jpg",
+        "description": [],
+        "specification": [
+            "Diameter: 5mm to 10mm",
+            "Lenght: Standard / Bariatric",
+            "Size: Medium-Large / Large / Extra-Large"
+        ],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "nathanson-retractor",
+        "title": "Nathanson Retractor",
+        "imageURL": "/assets/images/nathanson-retractor.jpg",
+        "description": [
+            "Table mount Retrector with accessories."
+        ],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": "laparoscopy",
+        "parentTitle": "Laparoscopy",
+        "key": "needle-holder",
+        "title": "Needle Holder",
+        "imageURL": "/assets/images/needle-holder.jpg",
+        "description": [],
+        "specification": [
+            "Diameter: 3mm to 5mm",
+            "Lenght: Paediatric / Standard / Bariatric",
+            "Jaw Type: Straight / Left Curve / Right Curve / Tooth / Self Align",
+            "Handle Type: Straight / Co-Axial / Ring"
+        ],
+        "technicalSpecifications": []
     }
 ]

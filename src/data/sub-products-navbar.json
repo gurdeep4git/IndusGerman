@@ -27,5 +27,46 @@
                 "link": "/product/medical-devices/automatic-tourniquet"
             }
         ]
+    },
+    {
+        "key": "laparoscopy",
+        "subProducts": [
+            {
+                "title": "Laparoscopy Hand Instruments",
+                "link": "/product/laparoscopy/laparoscopy-hand-instruments"
+            },
+            {
+                "title": "Telescopes",
+                "link": "/product/laparoscopy/telescopes"
+            },
+            {
+                "title": "Trocars And Accessories",
+                "link": "/product/laparoscopy/trocars-and-accessories"
+            },
+            {
+                "title": "Instruments For Gynecology",
+                "link": "/product/laparoscopy/instruments-for-gynecology"
+            },
+            {
+                "title": "Single Puncture Laparoscope",
+                "link": "/product/laparoscopy/single-puncture-laparoscope"
+            },
+            {
+                "title": "Suction And Irrigation Cannula",
+                "link": "/product/laparoscopy/suction-and-irrigation-cannula"
+            },
+            {
+                "title": "Hemolock Clip Applicator",
+                "link": "/product/laparoscopy/hemolock-clip-applicator"
+            },
+            {
+                "title": "Nathanson Retractor",
+                "link": "/product/laparoscopy/nathanson-retractor"
+            },
+            {
+                "title": "Needle Holder",
+                "link": "/product/laparoscopy/needle-holder"
+            }
+        ]
     }
 ]

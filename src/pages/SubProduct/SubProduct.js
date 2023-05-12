@@ -31,7 +31,7 @@ function SubProduct() {
                                 <h2 className='product-title'>{innerProduct?.title}</h2>
 
                                 {innerProduct?.imageURL &&
-                                    <img src={innerProduct?.imageURL} alt={innerProduct?.title} />
+                                    <img src={innerProduct?.imageURL} alt={innerProduct?.title} className='img-fluid' />
                                 }
 
                                 {
