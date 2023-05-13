@@ -4,6 +4,7 @@ import product from '../../data/products/sub-products.json';
 import subProductsNavData from "../../data/sub-products-navbar.json";
 import { Link } from 'react-router-dom';
 import '../ProductDetails/ProductDetails.css';
+import PageBanner from '../../components/PageBanner/PageBanner';
 
 function SubProduct() {
 
@@ -14,14 +15,7 @@ function SubProduct() {
 
     return (
         <>
-            <div className='product-banner'>
-                <div className='overlay'></div>
-                <div className="container">
-                    <div className='content'>
-                        <h1>{innerProduct?.parentTitle}</h1>
-                    </div>
-                </div>
-            </div>
+            <PageBanner title={innerProduct?.parentTitle} />
 
             <section className='section-pad'>
                 <div className="container">

@@ -1,0 +1,40 @@
+[
+    {
+        "key": "private-labeling",
+        "title": "Private Labeling",
+        "description": [
+            "It takes a lot of work to launch a firm, from setting up an office and hiring staff to building up a manufacturing line to produce goods under your name. What if, though, you could delegate this last stage to a business that already has a production line? A private label line can be useful here. As a private label vendor, you can sell goods that are exclusive to your company but produced by a different company. Additionally, it might free up your time so that you can concentrate on recruiting the best employees and selling and marketing your new company."
+        ],
+        "faq": [
+            {
+                "question": "what is private labelling?",
+                "answers": [
+                    "A product is referred to as a 'private label' if it is produced by a private label manufacturer and sold under the retailer's own brand. In other words, the company that creates the product is different from the one that markets and sells it. Many private-label products have brands that you may be familiar with. However, the names of the private label manufacturers who make these products are usually unknown to the typical consumer. This is because these producers don't deal with consumers directly. They only sell to retailers, who subsequently market private-label goods under their own brands to the public."
+                ]
+            },
+            {
+                "question": "how does private labelling works?",
+                "answers": [
+                    "Two different sorts of businesses are involved in the private label industry: private label producers, who create the product, and private label sellers, who brand and market the products to retail customers. Product quality will be guaranteed by a trustworthy private label manufacturer, who will also keep production costs in check. A competent private label merchant will create a solid foundation of brand equity with customers, market successfully, and implement a successful price strategy.",
+                    "White-label products and private-label products are two different things. A third-party manufacturer creating a product on behalf of a store is another aspect of white labelling. White-label goods, on the other hand, are not made specifically for one merchant. A whitelabel producer produces a generic product in bulk and then sells it to different merchants, each of whom then markets it under their own brand name to consumers. This implies that various businesses may market the same white-label item under various identities."
+                ]
+            },
+            {
+                "question": "what are benefits of private labelling?",
+                "answers": [
+                    "<b>CUSTOMIZED PRICING CONTROL</b> - On their numerous product lines, private label retailers and manufacturers can change manufacturing costs and price ranges. To increase profit margins, they can experiment with alternative price formulas.",
+                    "<b>CUSTOMIZED QUALITY CONTROL</b> - Private label business owners can have a direct channel of communication with their manufacturer and can request premium quality by doing so.",
+                    "<b>NIMBLE CHANGES</b> - An established brand may take months or even years to modify its pricing, marketing approach, or product formula. Private label vendors are far more flexible. They can immediately make adjustments in response to poor customer service or slow sales to produce the greatest product at the lowest cost.",
+                    "<b>A UNIQUE VALUE PROPOSITION</b> - Private labellers could create and market goods that are unique from store brands, well-known names, or other private label companies. This implies that as a private label business owner, you can develop innovative product concepts without taking the rest of the market into account."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "oem-solutions",
+        "title": "OEM Solutions",
+        "description": [
+            "An original equipment manufacturer (OEM) creates the systems or parts that are put into the final product of another COMPANY. For instance, computer manufacturers routinely incorporate OEM components—such as processors and software—into their supplied systems."
+        ]
+    }
+]

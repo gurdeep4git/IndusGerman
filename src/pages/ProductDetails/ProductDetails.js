@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import products from '../../data/products/products.json';
 import subProductsNavData from "../../data/sub-products-navbar.json";
 import './ProductDetails.css';
+import PageBanner from '../../components/PageBanner/PageBanner';
 
 function ProductDetails() {
 
@@ -13,14 +14,7 @@ function ProductDetails() {
 
     return (
         <>
-            <div className='product-banner'>
-                <div className='overlay'></div>
-                <div className="container">
-                    <div className='content'>
-                        <h1>{product?.title}</h1>
-                    </div>
-                </div>
-            </div>
+            <PageBanner title={product?.title} />
 
             <section className='section-pad'>
                 <div className="container">

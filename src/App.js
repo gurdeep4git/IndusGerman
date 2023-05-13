@@ -7,13 +7,16 @@ import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Footer from './components/Footer/Footer';
 import WOW from 'wowjs';
 import SubProduct from "./pages/SubProduct/SubProduct";
+import Service from "./pages/Service/Service";
 
 function App() {
 
   useEffect(() => {
+
     new WOW.WOW({
       live: false
     }).init();
+
   }, []);
 
   return (
@@ -27,6 +30,7 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/product/:name" element={<ProductDetails />} />
           <Route path="/product/:name/:subproduct" element={<SubProduct />} />
+          <Route path="/services/:name" element={<Service />} />
         </Routes>
 
         <Footer />

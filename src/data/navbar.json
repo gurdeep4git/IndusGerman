@@ -69,17 +69,12 @@
         "subMenu": [
             {
                 "title": "Private Labeling",
-                "link": ""
+                "link": "/services/private-labeling"
             },
             {
                 "title": "OEM Solutions",
-                "link": ""
+                "link": "/services/oem-solutions"
             }
         ]
-    },
-    {
-        "title": "Contact",
-        "link": "",
-        "subMenu": []
     }
 ]
