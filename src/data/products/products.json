@@ -127,5 +127,91 @@
             "Clamps",
             "All Sets (Major/ Minor/ Hystectomy / Laparoscopy / D & C etc.)"
         ]
+    },
+    {
+        "key": "orthopaedic-surgery",
+        "title": "Orthopaedic Surgery",
+        "imageURL": "",
+        "description": [
+            "Orthopaedics encompasses medical conditions that are aimed at treating or preventing deformities, illnesses, or injuries to the skeleton and its supporting structures (such as the bones, joints, muscles, and tendons). For orthopaedic surgery, INDUS GERMAN provides a broad selection of goods."
+        ],
+        "specification": [
+            "Bone Holding Forceps",
+            "Retractors",
+            "Bone Nibbler & Cutters",
+            "Bone Punch",
+            "Self-Retaining Retractors",
+            "Osteotomies/Chisels/Gouges",
+            "Drill & Reamers",
+            "Pin/ Wire & Rod Cutters",
+            "Elevators And Aerates",
+            "Hammers"
+        ]
+    },
+    {
+        "key": "neurosurgery",
+        "title": "Neurosurgery",
+        "imageURL": "/assets/images/neurosurgery.jpg",
+        "description": [
+            "In neurosurgery, conditions affecting the central and peripheral nerve systems are identified and surgically treated. A modern and user-friendly set of tools for neuro-surgical treatments on the brain, spine, spinal marrow, and peripheral nerves has been created by INDUS GERMAN. For many neurological surgeries, our Instruments and Retractor system provides the ideal platform"
+        ],
+        "specification": [
+            "Suction and Irrigation Cannulas",
+            "Gigli Wire",
+            "Hudson Brace",
+            "Rongeurs /Punches",
+            "Retractors",
+            "Spatulas",
+            "Electrodes",
+            "Bone Cutter & Nibblers",
+            "Forceps & Scissors"
+        ]
+    },
+    {
+        "key": "spine-surgery",
+        "title": "Spine Surgery",
+        "imageURL": "",
+        "description": [
+            "One of the most prevalent reasons for neurosurgical intervention is disorders of the spine. At INDUS GERMAN, we provide a full line of equipment for invasive surgical treatments to treat disc and spine issues."
+        ],
+        "specification": [
+            "Laminectomy Punches",
+            "Disc Nibbler",
+            "Bone Cutter",
+            "Osteotomies / Chisels /Gouges",
+            "Mallets",
+            "Bone Graft Impactor",
+            "Elevators & Dissectors",
+            "Retractors",
+            "Curettes /Hook / Probe",
+            "Bayonet Instruments"
+        ]
+    },
+    {
+        "key": "micro-surgery",
+        "title": "Micro Surgery",
+        "imageURL": "",
+        "description": [
+            "A surgical speciality called plastic surgery focuses on repairing facial and physical deformities brought on by disease, burns, trauma, and birth problems. For practices, clinics, and operation teams around the world, INDUS GERMAN provides a flexible choice of solutions using the most recent technologies."
+        ],
+        "specification": [
+            "Micro Needle Holders and Scissors",
+            "Cannulas Mircro Surgery",
+            "Retractors Mircro Surgery",
+            "Micro Forceps",
+            "Osteotome Chisel and Gouge",
+            "Mallet Gouge"
+        ]
+    },
+    {
+        "key": "dental-surgery",
+        "title": "Dental Surgery",
+        "imageURL": "/assets/images/dental-surgery.jpg",
+        "description": [],
+        "specification": [
+            "Extraction Set",
+            "Maxillofacial Instruments Set",
+            "General Dentistry"
+        ]
     }
 ]
