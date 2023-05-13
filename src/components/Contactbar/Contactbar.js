@@ -8,14 +8,14 @@ function Contactbar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-6">
-                            <a href="mailto:sales@forcetoindia.com">
+                            <a href="mailto:info@indusgerman.com">
                                 <span>Email : </span>
-                                sales@forcetoindia.com</a>
+                                info@indusgerman.com</a>
                         </div>
                         <div className="col-12 col-sm-6 text-sm-end">
-                            <a href="tel:+91-9289661157">
+                            <a href="tel:+91-9810349823">
                                 <span>Call : </span>
-                                <span className='fs-5 fw-bold'>+91-92896 61157</span>
+                                <span className='fs-5 fw-bold'>+91-98103 49823</span>
                             </a>
                         </div>
                     </div>

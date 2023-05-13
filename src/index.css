@@ -9,12 +9,18 @@
   --shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075)
 }
 
+@font-face {
+  font-family: myFont;
+  src: url(../public/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
 body {
   color: var(--five-color);
+  font-family: "myFont", Roboto;
 }
 
 .section-pad {
-  padding: 6.25rem 0;
+  padding: 3.25rem 0;
 }
 
 .section-title {

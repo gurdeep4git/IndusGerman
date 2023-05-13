@@ -62,10 +62,10 @@ function Footer() {
                                     <br />
                                     <br />
                                     <strong>Phone: </strong>
-                                    +91-92896 61157
+                                    +91-98103 49823
                                     <br />
                                     <strong>Email: </strong>
-                                    sales@forcetoindia.com
+                                    info@indusgerman.com
                                 </p>
                             </div>
                         </div>
