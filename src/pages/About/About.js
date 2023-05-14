@@ -2,6 +2,7 @@ import React from 'react'
 import PageBanner from '../../components/PageBanner/PageBanner'
 import AboutData from '../../data/about.json';
 import './About.css';
+import parse from 'html-react-parser';
 
 function About() {
 
@@ -19,7 +20,7 @@ function About() {
                                     {
                                         AboutData?.description.map((desc, index) => {
                                             return (
-                                                <p key={index}>{desc}</p>
+                                                <p key={index}>{parse(desc)}</p>
                                             )
                                         })
                                     }

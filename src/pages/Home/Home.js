@@ -4,6 +4,7 @@ import './Home.css';
 import products from '../../data/navbar.json'
 import data from '../../data/home.json';
 import { Link } from 'react-router-dom';
+import parse from 'html-react-parser';
 
 function Home() {
 
@@ -41,7 +42,7 @@ function Home() {
                             productsList.map((product, index) => {
                                 return (
                                     <div key={index} className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div className="service-item py-4 px-4 py-lg-4 mb-3">
+                                        <div className="service-item shadow py-3 px-3 py-lg-3 mb-3">
                                             <Link className="service-title" to={product.link}>
                                                 {product.title}
                                             </Link>
@@ -64,7 +65,7 @@ function Home() {
                             {
                                 data.about.map((item, index) => {
                                     return (
-                                        <p key={index} className='description'>{item}</p>
+                                        <p key={index} className='description'>{parse(item)}</p>
                                     )
                                 })
                             }

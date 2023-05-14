@@ -5,6 +5,7 @@ import products from '../../data/products/products.json';
 import subProductsNavData from "../../data/sub-products-navbar.json";
 import './ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
+import parse from 'html-react-parser';
 
 function ProductDetails() {
 
@@ -30,7 +31,7 @@ function ProductDetails() {
                                 {
                                     product?.description.map((desc, index) => {
                                         return (
-                                            <p key={index} className='product-text'>{desc}</p>
+                                            <p key={index} className='product-text'>{parse(desc)}</p>
                                         )
                                     })
                                 }

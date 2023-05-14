@@ -19,6 +19,10 @@ body {
   font-family: "myFont", Roboto;
 }
 
+.first-color {
+  color: var(--first-color);
+}
+
 .section-pad {
   padding: 3.25rem 0;
 }
