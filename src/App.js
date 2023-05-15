@@ -5,23 +5,20 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Footer from './components/Footer/Footer';
-import WOW from 'wowjs';
 import SubProduct from "./pages/SubProduct/SubProduct";
 import Service from "./pages/Service/Service";
+import BackToTop from "./components/BackToTop/BackToTop";
+import { ScrollTop } from "./components/ScrollTop/ScrollTop";
+import { WowAnimate } from "./components/WowAnimate/WowAnimate";
 
 function App() {
-
-  useEffect(() => {
-
-    new WOW.WOW({
-      live: false
-    }).init();
-
-  }, []);
 
   return (
     <>
       <BrowserRouter>
+        <ScrollTop />
+        <WowAnimate />
+
         <Navbar />
 
         <Routes>
@@ -34,6 +31,7 @@ function App() {
         </Routes>
 
         <Footer />
+        <BackToTop />
       </BrowserRouter>
 
     </>

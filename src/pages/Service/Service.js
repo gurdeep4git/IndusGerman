@@ -14,7 +14,7 @@ function Service() {
 
             <section className='section-pad'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row wow fadeInUp">
                         <div className="col">
                             <h2 className='product-title'>{service?.title}</h2>
                             <div className='service-content wow fadeInUp'>

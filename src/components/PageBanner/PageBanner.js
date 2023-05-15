@@ -8,7 +8,7 @@ function PageBanner(props) {
       <div className='overlay'></div>
       <div className="container">
         <div className='content'>
-          <h1>{title}</h1>
+          <h1 className='wow fadeInUp'>{title}</h1>
         </div>
       </div>
     </div>

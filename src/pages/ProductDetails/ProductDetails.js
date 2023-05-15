@@ -19,7 +19,7 @@ function ProductDetails() {
 
             <section className='section-pad'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row wow fadeInUp">
                         <div className="col-lg-8">
                             <div className='p-details'>
                                 <h2 className='product-title'>{product?.title}</h2>
@@ -57,7 +57,10 @@ function ProductDetails() {
                                         subProductsNav.map((nav, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <Link to={nav?.link}>{nav?.title}</Link>
+                                                    <Link to={nav?.link}>
+                                                        <i className="bi bi-chevron-right"></i>
+                                                        {nav?.title}
+                                                    </Link>
                                                 </li>
                                             )
                                         })

@@ -11,7 +11,7 @@ function Footer() {
         <>
             <div className="footer bg-color section-pad">
                 <div className="container">
-                    <div className="row">
+                    <div className="row wow fadeInUp">
                         <div className="col-md-6 col-lg-5 mb-4 mb-lg-0">
                             <div className='brand-text'>
                                 <h3 className='fs-3'>Indus<span>German</span></h3>
@@ -26,7 +26,10 @@ function Footer() {
                                         productsList.map((product, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <Link to={product.link}>{product.title}</Link>
+                                                    <Link to={product.link}>
+                                                        <i className="bi bi-chevron-right"></i>
+                                                        {product.title}
+                                                    </Link>
                                                 </li>
                                             )
                                         })
@@ -42,7 +45,10 @@ function Footer() {
                                         data.links.map((link, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <Link to={link?.link}>{link.title}</Link>
+                                                    <Link to={link?.link}>
+                                                        <i className="bi bi-chevron-right"></i>
+                                                        {link.title}
+                                                    </Link>
                                                 </li>
                                             )
                                         })
