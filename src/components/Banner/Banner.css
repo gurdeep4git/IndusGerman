@@ -3,9 +3,9 @@
     overflow: hidden;
     background: url(../../../public/assets/images/cover.JPG) no-repeat;
     min-height: 550px;
-    background-position: right;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-color: #b4bcc9;
+    background-size: cover;
 }
 
 .blur {
@@ -24,8 +24,19 @@
     line-height: 1.2;
     letter-spacing: -1.2px;
     text-transform: capitalize;
-
 }
+
+@media(max-width:576px) {
+    .title {
+        font-size: 2.75rem;
+    }
+
+    .banner {
+        min-height: 500px;
+    }
+}
+
+
 
 .text {
     font-weight: 500;
@@ -41,12 +52,3 @@
         margin-top: 8rem;
     }
 }
-
-/* .margin:before {
-    content: '';
-    width: 70px;
-    height: 5px;
-    position: absolute;
-    background: var(--first-color);
-    top: -20px;
-} */
