@@ -1,7 +1,7 @@
 {
   "name": "indus-german",
   "version": "0.1.0",
-  "homepage": "http://ig.v4utech.com",
+  "homepage": "http://indusgerman.v4utech.com",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.7",

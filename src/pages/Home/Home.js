@@ -6,6 +6,7 @@ import data from '../../data/home.json';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
 
+
 function Home() {
 
     const productsList = products.filter(i => i.title === 'Products')[0].subMenu;
@@ -24,7 +25,7 @@ function Home() {
                                     <div key={index} className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay={`${index * 0.5}s`}>
                                         <div className="feature-item py-4 px-4 py-lg-5 px-lg-4 mb-3 mb-lg-0">
                                             <h4 className="mb-3 feature-title">{feature.title}</h4>
-                                            <p className="mb-4 feature-description">{feature.description}</p>
+                                            <p className="mb-4 feature-description">{parse(feature.description)}</p>
                                         </div>
                                     </div>
                                 )
