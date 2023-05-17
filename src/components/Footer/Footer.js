@@ -1,11 +1,11 @@
 import React from 'react'
 import './Footer.css';
-import products from '../../data/navbar.json'
+import { NavbarData } from '../../data/navbar-data'
 import data from '../../data/footer.json';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    const productsList = products.filter(i => i.title === 'Products')[0].subMenu;
+    const productsList = NavbarData.filter(i => i.title === 'Products')[0].subMenu;
 
     return (
         <>

@@ -26,7 +26,7 @@ function BackToTop() {
     return (
         <>
             <div className='back-to-top shadow' style={{ display: visible ? 'block' : 'none' }} onClick={scrollToTop}>
-                <i class="bi bi-arrow-up"></i>
+                <i className="bi bi-arrow-up"></i>
             </div>
         </>
     )

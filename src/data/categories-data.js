@@ -1,7 +1,9 @@
-[
+import { Categories } from "./keys"
+
+export const CategoriesData = [
     {
-        "key": "medical-devices",
-        "title": "Medical Devices",
+        "key": `${Categories.category_1.key}`,
+        "title": `${Categories.category_1.title}`,
         "imageURL": "",
         "description": [
             "For various surgical procedures, <b>Indus<span className='first-color'>German</span></b> provides a wide variety of medical instruments. Our product line features the newest technology, ergonomic designs that are simple to use and ensure a high level of patient and operator safety."
@@ -16,8 +18,8 @@
         ]
     },
     {
-        "key": "laparoscopy",
-        "title": "Laparoscopy",
+        "key": `${Categories.category_2.key}`,
+        "title": `${Categories.category_2.title}`,
         "imageURL": "",
         "description": [
             "With the help of an Endovision camera system, a laparoscopy is a procedure carried out in the belly or pelvis using small incisions. With a few tiny abdominal incisions, the laparoscope helps in diagnostic or therapeutic surgical procedures. For both common and specialized operative techniques, <b>Indus<span className='first-color'>German</span></b> provides a full line of products. Our ergonomically created technology offers the ideal tool for every activity, ensures long service life, and gives the highest level of workplace precision."
@@ -35,8 +37,8 @@
         ]
     },
     {
-        "key": "hysteroscopy-set",
-        "title": "Hysteroscopy Set",
+        "key": `${Categories.category_3.key}`,
+        "title": `${Categories.category_3.title}`,
         "imageURL": "",
         "description": [
             "In gynaecology, hysteroscopy is both a diagnostic and an operational technique. For female patients, hysteroscopy identifies, treats, and prevents illnesses. At <b>Indus<span className='first-color'>German</span></b>, we consistently create innovative items for gynaecologists and other medical professionals to utilize in hospitals."
@@ -52,8 +54,8 @@
         ]
     },
     {
-        "key": "endo-urology",
-        "title": "Endo Urology",
+        "key": `${Categories.category_4.key}`,
+        "title": `${Categories.category_4.title}`,
         "imageURL": "",
         "description": [
             "For the endoscopic treatment of urological problems, we have been creating cutting-edge devices. At <b>Indus<span className='first-color'>German</span></b>, we provide a full line of products for cystoscopy, including resectoscopes."
@@ -73,8 +75,8 @@
         ]
     },
     {
-        "key": "ent",
-        "title": "ENT",
+        "key": `${Categories.category_5.key}`,
+        "title": `${Categories.category_5.title}`,
         "imageURL": "",
         "description": [
             "At <b>Indus<span className='first-color'>German</span></b>, we have a facility where we can offer various tools and equipment for surgical and diagnostic ear, nose, and throat procedures.",
@@ -93,9 +95,9 @@
         ]
     },
     {
-        "key": "arthroscopy-set",
-        "title": "Arthroscopy Set",
-        "imageURL": "/assets/images/arthroscopy-set.jpg",
+        "key": `${Categories.category_6.key}`,
+        "title": `${Categories.category_6.title}`,
+        "imageURL": `/assets/images/${Categories.category_6.key}.jpg`,
         "description": [
             "A minimally invasive surgical procedure (both diagnostic and therapeutic) is called an arthroscopy. Treatment for joints such as knees, shoulders, hips, elbows, and the upper ankle is included in orthopaedic surgeries. Our facility at <b>Indus<span className='first-color'>German</span></b> has tools and equipment for arthroscopy, open joint surgery, orthopaedics, and sports medicine."
         ],
@@ -110,9 +112,9 @@
         ]
     },
     {
-        "key": "general-surgery",
-        "title": "General Surgery",
-        "imageURL": "/assets/images/general-surgery.jpg",
+        "key": `${Categories.category_7.key}`,
+        "title": `${Categories.category_7.title}`,
+        "imageURL": `/assets/images/${Categories.category_7.key}.jpg`,
         "description": [
             "The abdominal cavity and its contents, including the oesophagus, stomach, small and large intestines, liver, pancreas, gallbladder, appendix, bile ducts, as well as the thyroid gland, are the focus of general surgery.",
             "The surgical field includes oncological surgery, reconstructive surgery, and organ transplantation, as well as the prevention, detection, conservative and surgical treatment, aftercare, and rehabilitation of surgical conditions, injuries, and complications resulting from injuries. It also includes innate and acquired changes in shape and malformations of vessels, internal organs, including the heart, supporting and movement organs, and oncological surgery. A subset of surgery known as general surgery includes visceral and vascular surgery as well as the fundamentals of surgery (basic surgery).",
@@ -130,8 +132,8 @@
         ]
     },
     {
-        "key": "orthopaedic-surgery",
-        "title": "Orthopaedic Surgery",
+        "key": `${Categories.category_8.key}`,
+        "title": `${Categories.category_8.title}`,
         "imageURL": "",
         "description": [
             "Orthopaedics encompasses medical conditions that are aimed at treating or preventing deformities, illnesses, or injuries to the skeleton and its supporting structures (such as the bones, joints, muscles, and tendons). For orthopaedic surgery, <b>Indus<span className='first-color'>German</span></b> provides a broad selection of goods."
@@ -150,9 +152,9 @@
         ]
     },
     {
-        "key": "neurosurgery",
-        "title": "Neurosurgery",
-        "imageURL": "/assets/images/neurosurgery.jpg",
+        "key": `${Categories.category_9.key}`,
+        "title": `${Categories.category_9.title}`,
+        "imageURL": `/assets/images/${Categories.category_9.key}.jpg`,
         "description": [
             "In neurosurgery, conditions affecting the central and peripheral nerve systems are identified and surgically treated. A modern and user-friendly set of tools for neuro-surgical treatments on the brain, spine, spinal marrow, and peripheral nerves has been created by <b>Indus<span className='first-color'>German</span></b>. For many neurological surgeries, our Instruments and Retractor system provides the ideal platform"
         ],
@@ -169,8 +171,8 @@
         ]
     },
     {
-        "key": "spine-surgery",
-        "title": "Spine Surgery",
+        "key": `${Categories.category_10.key}`,
+        "title": `${Categories.category_10.title}`,
         "imageURL": "",
         "description": [
             "One of the most prevalent reasons for neurosurgical intervention is disorders of the spine. At <b>Indus<span className='first-color'>German</span></b>, we provide a full line of equipment for invasive surgical treatments to treat disc and spine issues."
@@ -189,8 +191,8 @@
         ]
     },
     {
-        "key": "micro-surgery",
-        "title": "Micro Surgery",
+        "key": `${Categories.category_11.key}`,
+        "title": `${Categories.category_11.title}`,
         "imageURL": "",
         "description": [
             "A surgical speciality called plastic surgery focuses on repairing facial and physical deformities brought on by disease, burns, trauma, and birth problems. For practices, clinics, and operation teams around the world, <b>Indus<span className='first-color'>German</span></b> provides a flexible choice of solutions using the most recent technologies."
@@ -205,9 +207,9 @@
         ]
     },
     {
-        "key": "dental-surgery",
-        "title": "Dental Surgery",
-        "imageURL": "/assets/images/dental-surgery.jpg",
+        "key": `${Categories.category_12.key}`,
+        "title": `${Categories.category_12.title}`,
+        "imageURL": `/assets/images/${Categories.category_12.key}.jpg`,
         "description": [],
         "specification": [
             "Extraction Set",

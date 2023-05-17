@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
-import product from '../../data/products/sub-products.json';
-import subProductsNavData from "../../data/sub-products-navbar.json";
+import { ProductsData } from '../../data/products-data';
+import { ProductsNavData } from "../../data/products";
 import { Link } from 'react-router-dom';
 import '../ProductDetails/ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
@@ -10,8 +10,8 @@ function SubProduct() {
 
     const parentKey = useLocation().pathname.split('/')[2];
     const key = useLocation().pathname.split('/')[3];
-    const innerProduct = product.filter(i => i.key === key)[0];
-    const subProductsNav = subProductsNavData.filter(s => s.key === parentKey)[0].subProducts;
+    const innerProduct = ProductsData.filter(i => i.key === key)[0];
+    const subProductsNav = ProductsNavData.filter(s => s.key === parentKey)[0].subProducts;
 
     return (
         <>

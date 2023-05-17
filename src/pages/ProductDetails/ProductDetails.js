@@ -1,8 +1,8 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import products from '../../data/products/products.json';
-import subProductsNavData from "../../data/sub-products-navbar.json";
+import { CategoriesData } from '../../data/categories-data';
+import { ProductsNavData } from "../../data/products";
 import './ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
 import parse from 'html-react-parser';
@@ -10,8 +10,8 @@ import parse from 'html-react-parser';
 function ProductDetails() {
 
     const key = useLocation().pathname.split('/')[2];
-    const product = products.filter(p => p.key === key)[0];
-    const subProductsNav = subProductsNavData.filter(s => s.key === key)[0].subProducts;
+    const product = CategoriesData.filter(p => p.key === key)[0];
+    const subProductsNav = ProductsNavData.filter(s => s.key === key)[0].subProducts;
 
     return (
         <>

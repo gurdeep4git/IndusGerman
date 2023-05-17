@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import './Home.css';
-import products from '../../data/navbar.json'
+import { NavbarData } from '../../data/navbar-data'
 import data from '../../data/home.json';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
@@ -9,7 +9,7 @@ import parse from 'html-react-parser';
 
 function Home() {
 
-    const productsList = products.filter(i => i.title === 'Products')[0].subMenu;
+    const productsList = NavbarData.filter(i => i.title === 'Products')[0].subMenu;
 
     return (
         <>

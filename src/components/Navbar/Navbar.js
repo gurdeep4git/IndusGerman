@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import data from '../../data/navbar.json';
+import { NavbarData } from '../../data/navbar-data.js';
 import './Navbar.css';
 import Contactbar from '../Contactbar/Contactbar';
 
@@ -22,7 +22,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">
                             {
-                                data.map((item, index) => {
+                                NavbarData.map((item, index) => {
                                     if (item.subMenu?.length === 0) {
                                         return (
                                             <li key={index} className="nav-item">
