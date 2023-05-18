@@ -3,6 +3,7 @@ import './Footer.css';
 import { NavbarData } from '../../data/navbar-data'
 import data from '../../data/footer.json';
 import { Link } from 'react-router-dom';
+import ContactData from '../../data/contact.json';
 
 function Footer() {
     const productsList = NavbarData.filter(i => i.title === 'Products')[0].subMenu;
@@ -68,10 +69,10 @@ function Footer() {
                                     <br />
                                     <br />
                                     <strong>Phone: </strong>
-                                    +91-98103 49823
+                                    {ContactData.phone}
                                     <br />
                                     <strong>Email: </strong>
-                                    info@indusgerman.com
+                                    {ContactData.email}
                                 </p>
                             </div>
                         </div>

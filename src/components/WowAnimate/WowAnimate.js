@@ -7,7 +7,7 @@ export function WowAnimate() {
 
     useEffect(() => {
         new WOW.WOW({
-            live: true
+            live: false
         }).init();
     }, [pathname]);
 
