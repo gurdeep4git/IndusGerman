@@ -9,6 +9,7 @@ import Service from "./pages/Service/Service";
 import BackToTop from "./components/BackToTop/BackToTop";
 import { ScrollTop } from "./components/ScrollTop/ScrollTop";
 import { WowAnimate } from "./components/WowAnimate/WowAnimate";
+import Clients from './pages/Clients/Clients';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/product/:name" element={<ProductDetails />} />
           <Route path="/product/:name/:subproduct" element={<SubProduct />} />
           <Route path="/services/:name" element={<Service />} />
+          <Route path="/clients" exact element={<Clients />} />
         </Routes>
 
         <Footer />

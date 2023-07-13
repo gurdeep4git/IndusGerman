@@ -77,6 +77,15 @@ export const NavbarData = [
                 "title": `${Services.service_2.title}`,
                 "link": `/services/${Services.service_2.key}`
             },
+            {
+                "title": `${Services.service_3.title}`,
+                "link": `/services/${Services.service_3.key}`
+            },
         ]
-    }
+    },
+    {
+        "title": "Clients",
+        "link": "/clients",
+        "subMenu": []
+    },
 ]

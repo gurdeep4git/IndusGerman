@@ -6,7 +6,7 @@ export const CategoriesData = [
         "title": `${Categories.category_1.title}`,
         "imageURL": "",
         "description": [
-            "For various surgical procedures, <b>Indus<span className='first-color'>German</span></b> provides a wide variety of medical instruments. Our product line features the newest technology, ergonomic designs that are simple to use and ensure a high level of patient and operator safety."
+            "Components for Medical devices are sourced from suppliers of reputed brands, which are world leaders in their field. The outcome is international quality 'Made in India'"
         ],
         "specification": [
             "Endovision HD Camera System",
@@ -14,7 +14,13 @@ export const CategoriesData = [
             "LED Light Source Touch Screen",
             "Fiber Optic Light Cable",
             "Suction & Irrigation Pump",
-            "Automatic Tourniquet"
+            "Automatic Tourniquet",
+            "Autopsy Saw",
+            "Plaster Cutter with Suction",
+            "Operating Stool",
+            "Loupes",
+            "Portable Light and Battery Backup",
+            "Vaccum Suction"
         ]
     },
     {
@@ -148,7 +154,8 @@ export const CategoriesData = [
             "Drill & Reamers",
             "Pin/ Wire & Rod Cutters",
             "Elevators And Aerates",
-            "Hammers"
+            "Hammers",
+            "Orthopedic Instrument Sets"
         ]
     },
     {
@@ -214,7 +221,8 @@ export const CategoriesData = [
         "specification": [
             "Extraction Set",
             "Maxillofacial Instruments Set",
-            "General Dentistry"
+            "General Dentistry",
+            "Cranio-Mayillofacial Sets"
         ]
     }
 ]

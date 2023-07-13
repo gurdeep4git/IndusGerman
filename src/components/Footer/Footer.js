@@ -17,6 +17,23 @@ function Footer() {
                             <div className='brand-text'>
                                 <h3 className='fs-3'>Indus<span>German</span></h3>
                                 <p>IndusGerman provides secure, reliable integrated technology solutions for the category of Surgical, and Endoscopy instruments equipment and majorly focused on Manufacturing, Development and Import   Export of new technology with the finest quality equipment and instruments.</p>
+
+                                <div className='my-4'>
+                                    <div>
+                                        <img className='certification-logo' src='/assets/images/startup.png' />
+                                        <img className='certification-logo' src='/assets/images/make_in_india.png' />
+                                        <img className='certification-logo' src='/assets/images/msme.png' />
+                                    </div>
+
+                                    <div className='mt-4'>
+                                        <img className='certification-logo' src='/assets/images/iaf.jpg' />
+                                        <img className='certification-logo' src='/assets/images/bscic.png' />
+                                        <img className='certification-logo sm' src='/assets/images/iso.png' />
+                                    </div>
+
+                                    <div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-2 mb-4 mb-lg-0">
@@ -61,7 +78,7 @@ function Footer() {
                             <h3 className='footer-title mb-3'>Contact Us</h3>
                             <div>
                                 <p>
-                                    32, 1st floor, F.I.E., Patparganj
+                                    29, 1st floor, Patparganj
                                     <br />
                                     Delhi-110092
                                     <br />

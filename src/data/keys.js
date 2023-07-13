@@ -57,6 +57,10 @@ export const Services = {
     service_2: {
         key: 'oem-solutions',
         title: 'OEM Solutions'
+    },
+    service_3: {
+        key: 'custom-designing',
+        title: 'Custom Designing'
     }
 }
 
