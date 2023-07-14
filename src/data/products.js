@@ -40,6 +40,30 @@ export const ProductsNavData = [
             {
                 "title": `${Category_1_Products.product_6.title}`,
                 "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_6.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_7.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_7.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_8.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_8.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_9.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_9.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_10.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_10.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_11.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_11.key}`
+            },
+            {
+                "title": `${Category_1_Products.product_12.title}`,
+                "link": `/product/${Category_1_Products.parentKey}/${Category_1_Products.product_12.key}`
             }
         ]
     },
@@ -307,6 +331,10 @@ export const ProductsNavData = [
             {
                 "title": `${Category_8_Products.product_10.title}`,
                 "link": `/product/${Category_8_Products.parentKey}/${Category_8_Products.product_10.key}`
+            },
+            {
+                "title": `${Category_8_Products.product_11.title}`,
+                "link": `/product/${Category_8_Products.parentKey}/${Category_8_Products.product_11.key}`
             }
         ]
     },
@@ -431,6 +459,10 @@ export const ProductsNavData = [
             {
                 "title": `${Category_12_Products.product_3.title}`,
                 "link": `/product/${Category_12_Products.parentKey}/${Category_12_Products.product_3.key}`
+            },
+            {
+                "title": `${Category_12_Products.product_4.title}`,
+                "link": `/product/${Category_12_Products.parentKey}/${Category_12_Products.product_4.key}`
             }
         ]
     }

@@ -90,6 +90,30 @@ export const Category_1_Products = {
         key: 'automatic-tourniquet',
         title: 'Automatic Tourniquet'
     },
+    product_7: {
+        key: 'autopsy-saw',
+        title: 'Autopsy Saw'
+    },
+    product_8: {
+        key: 'plaster-cutter-with-suction',
+        title: 'Plaster Cutter with Suction'
+    },
+    product_9: {
+        key: 'operating-stool',
+        title: 'Operating Stool'
+    },
+    product_10: {
+        key: 'loupes',
+        title: 'Loupes'
+    },
+    product_11: {
+        key: 'portable-light-and-battery-backup',
+        title: 'Portable Light and Battery Backup'
+    },
+    product_12: {
+        key: 'vacuum-suction',
+        title: 'Vacuum Suction'
+    }
 }
 
 export const Category_2_Products = {
@@ -350,6 +374,10 @@ export const Category_8_Products = {
     product_10: {
         key: 'hammer',
         title: 'Hammer'
+    },
+    product_11: {
+        key: 'orthopedic-instrument-sets',
+        title: 'Orthopedic Instrument Sets'
     }
 }
 
@@ -470,5 +498,9 @@ export const Category_12_Products = {
     product_3: {
         key: 'general-dentistry',
         title: 'General Dentistry'
+    },
+    product_4: {
+        key: 'cranio-mayillofacial-sets',
+        title: 'Cranio-Mayillofacial Sets'
     }
 }

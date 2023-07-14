@@ -143,6 +143,66 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_7.key}`,
+        "title": `${Category_1_Products.product_7.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_7.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_8.key}`,
+        "title": `${Category_1_Products.product_8.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_8.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_9.key}`,
+        "title": `${Category_1_Products.product_9.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_9.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_10.key}`,
+        "title": `${Category_1_Products.product_10.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_10.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_11.key}`,
+        "title": `${Category_1_Products.product_11.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_11.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_1.key}`,
+        "parentTitle": `${Categories.category_1.title}`,
+        "key": `${Category_1_Products.product_12.key}`,
+        "title": `${Category_1_Products.product_12.title}`,
+        "imageURL": `/assets/images/${Category_1_Products.product_12.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_2.key}`,
@@ -751,6 +811,16 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "parentkey": `${Categories.category_8.key}`,
+        "parentTitle": `${Categories.category_8.title}`,
+        "key": `${Category_8_Products.product_11.key}`,
+        "title": `${Category_8_Products.product_11.title}`,
+        "imageURL": `/assets/images/${Category_8_Products.product_11.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_1.key}`,
@@ -1006,6 +1076,16 @@ export const ProductsData = [
         "key": `${Category_12_Products.product_3.key}`,
         "title": `${Category_12_Products.product_3.title}`,
         "imageURL": `/assets/images/${Category_12_Products.product_3.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "parentkey": `${Categories.category_12.key}`,
+        "parentTitle": `${Categories.category_12.title}`,
+        "key": `${Category_12_Products.product_4.key}`,
+        "title": `${Category_12_Products.product_4.title}`,
+        "imageURL": `/assets/images/${Category_12_Products.product_4.key}.jpg`,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
