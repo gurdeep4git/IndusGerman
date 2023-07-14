@@ -88,4 +88,9 @@ export const NavbarData = [
         "link": "/clients",
         "subMenu": []
     },
+    {
+        "title": "Contact",
+        "link": "/contact",
+        "subMenu": []
+    },
 ]

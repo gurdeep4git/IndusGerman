@@ -25,6 +25,18 @@ body {
   color: var(--first-color);
 }
 
+.bg-first-color {
+  background-color: var(--first-color);
+  border-color: var(--first-color);
+}
+
+.bg-first-color:hover,
+.bg-first-color:focus,
+.bg-first-color:active {
+  background-color: var(--first-color) !important;
+  border-color: var(--first-color) !important;
+}
+
 .section-pad {
   padding: 3.25rem 0;
 }
