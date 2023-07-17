@@ -27,18 +27,18 @@ function Contact() {
 
         if (isFormValid()) {
 
-            const url = `http://indusgerman.v4utech.com/sendmail/index.php`;
+            // const url = `http://indusgerman.v4utech.com/sendmail/index.php`;
 
-            axios(url, {
-                method: 'POST',
-                mode: 'no-cors',
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Content-Type': 'application/json',
-                },
-            }).then(response => {
-                console.log(response)
-            })
+            // axios(url, {
+            //     method: 'POST',
+            //     mode: 'no-cors',
+            //     headers: {
+            //         'Access-Control-Allow-Origin': '*',
+            //         'Content-Type': 'application/json',
+            //     },
+            // }).then(response => {
+            //     console.log(response)
+            // })
 
 
 
