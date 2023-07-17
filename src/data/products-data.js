@@ -16,6 +16,7 @@ import {
 
 export const ProductsData = [
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_1.key}`,
@@ -41,6 +42,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_2.key}`,
@@ -59,6 +61,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_3.key}`,
@@ -82,6 +85,7 @@ export const ProductsData = [
         ]
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_4.key}`,
@@ -94,6 +98,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_5.key}`,
@@ -119,6 +124,7 @@ export const ProductsData = [
         ]
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_6.key}`,
@@ -143,6 +149,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_7.key}`,
@@ -153,6 +160,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_8.key}`,
@@ -163,6 +171,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_9.key}`,
@@ -173,6 +182,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_10.key}`,
@@ -183,6 +193,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_11.key}`,
@@ -193,6 +204,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_1.key}`,
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_12.key}`,
@@ -203,6 +215,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_2.key}`,
@@ -219,6 +232,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_3.key}`,
@@ -234,6 +248,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_4.key}`,
@@ -248,6 +263,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_5.key}`,
@@ -258,6 +274,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_6.key}`,
@@ -272,6 +289,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_7.key}`,
@@ -286,6 +304,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_8.key}`,
@@ -298,6 +317,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_2.key}`,
         "parentTitle": `${Categories.category_2.title}`,
         "key": `${Category_2_Products.product_9.key}`,
@@ -313,6 +333,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_1.key}`,
@@ -323,6 +344,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_2.key}`,
@@ -333,6 +355,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_3.key}`,
@@ -343,6 +366,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_4.key}`,
@@ -353,6 +377,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_5.key}`,
@@ -363,6 +388,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_6.key}`,
@@ -373,6 +399,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_3.key}`,
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_7.key}`,
@@ -383,6 +410,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_1.key}`,
@@ -393,6 +421,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_2.key}`,
@@ -403,6 +432,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_3.key}`,
@@ -413,6 +443,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_4.key}`,
@@ -423,6 +454,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_5.key}`,
@@ -433,6 +465,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_6.key}`,
@@ -443,6 +476,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_7.key}`,
@@ -453,6 +487,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_8.key}`,
@@ -463,6 +498,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_9.key}`,
@@ -473,6 +509,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_10.key}`,
@@ -483,6 +520,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_4.key}`,
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_11.key}`,
@@ -493,6 +531,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_1.key}`,
@@ -503,6 +542,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_2.key}`,
@@ -513,6 +553,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_3.key}`,
@@ -523,6 +564,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_4.key}`,
@@ -533,6 +575,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_5.key}`,
@@ -543,6 +586,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_6.key}`,
@@ -553,6 +597,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_5.key}`,
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_7.key}`,
@@ -563,6 +608,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_1.key}`,
@@ -573,6 +619,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_2.key}`,
@@ -583,6 +630,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_3.key}`,
@@ -593,6 +641,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_4.key}`,
@@ -603,6 +652,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_5.key}`,
@@ -613,6 +663,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_6.key}`,
@@ -623,6 +674,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_6.key}`,
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_7.key}`,
@@ -633,6 +685,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_1.key}`,
@@ -651,6 +704,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_2.key}`,
@@ -661,6 +715,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_3.key}`,
@@ -671,6 +726,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_4.key}`,
@@ -681,6 +737,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_5.key}`,
@@ -691,6 +748,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_6.key}`,
@@ -701,6 +759,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_7.key}`,
         "parentTitle": `${Categories.category_7.title}`,
         "key": `${Category_7_Products.product_7.key}`,
@@ -711,6 +770,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_1.key}`,
@@ -721,6 +781,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_2.key}`,
@@ -731,6 +792,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_3.key}`,
@@ -741,6 +803,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_4.key}`,
@@ -751,6 +814,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_5.key}`,
@@ -761,6 +825,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_6.key}`,
@@ -771,6 +836,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_7.key}`,
@@ -781,6 +847,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_8.key}`,
@@ -791,6 +858,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_9.key}`,
@@ -801,6 +869,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_10.key}`,
@@ -811,16 +880,41 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": false,
         "parentkey": `${Categories.category_8.key}`,
         "parentTitle": `${Categories.category_8.title}`,
         "key": `${Category_8_Products.product_11.key}`,
         "title": `${Category_8_Products.product_11.title}`,
-        "imageURL": `/assets/images/${Category_8_Products.product_11.key}.jpg`,
+        "imageURL": "",
         "description": [],
-        "specification": [],
-        "technicalSpecifications": []
+        "technicalSpecifications": [
+            "Large Fragment Instrument Set",
+            "Small Fragment Instrument Set",
+            "Mini Fragment Instrument Set",
+            "TBW Instrument Set",
+            "K-wire and pin Instrument Set",
+            "Ostcotomy Instrument Set",
+            "Bone Punch Instrument Set",
+            "Bending Pliers Set",
+            "Broken Screw Instrument Set",
+            "Nail Removal Instrument Set",
+            "MIPPO Instrument Set",
+            "Shoulder Retractor Instrument Set",
+            "Cement Removal Instrument Set",
+            "Cervical Retractor Instrument Set",
+            "Lumbar Retractor Instrument Set",
+            "Thoracotomy Instrument Set",
+            "Laproscopic Insturment Set",
+            "Thompson Retractor Instrument Set",
+            "Cronial Instrument Set",
+            "Maxillofacial Instrument Set",
+            "Reamer with Cannulation/Hand Reamer Instrument Set",
+            "Micro Vascular Instrument Set"
+        ],
+        "specification": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_1.key}`,
@@ -831,6 +925,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_2.key}`,
@@ -841,6 +936,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_3.key}`,
@@ -851,6 +947,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_4.key}`,
@@ -861,6 +958,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_5.key}`,
@@ -871,6 +969,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_6.key}`,
@@ -881,6 +980,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_7.key}`,
@@ -891,6 +991,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_9.key}`,
         "parentTitle": `${Categories.category_9.title}`,
         "key": `${Category_9_Products.product_8.key}`,
@@ -901,6 +1002,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_1.key}`,
@@ -911,6 +1013,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_2.key}`,
@@ -921,6 +1024,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_3.key}`,
@@ -931,6 +1035,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_4.key}`,
@@ -941,6 +1046,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_5.key}`,
@@ -951,6 +1057,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_6.key}`,
@@ -961,6 +1068,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_7.key}`,
@@ -971,6 +1079,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_8.key}`,
@@ -981,6 +1090,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_10.key}`,
         "parentTitle": `${Categories.category_10.title}`,
         "key": `${Category_10_Products.product_9.key}`,
@@ -991,6 +1101,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_1.key}`,
@@ -1001,6 +1112,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_2.key}`,
@@ -1011,6 +1123,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_3.key}`,
@@ -1021,6 +1134,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_4.key}`,
@@ -1031,6 +1145,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_5.key}`,
@@ -1041,6 +1156,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_11.key}`,
         "parentTitle": `${Categories.category_11.title}`,
         "key": `${Category_11_Products.product_6.key}`,
@@ -1051,6 +1167,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_12.key}`,
         "parentTitle": `${Categories.category_12.title}`,
         "key": `${Category_12_Products.product_1.key}`,
@@ -1061,6 +1178,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_12.key}`,
         "parentTitle": `${Categories.category_12.title}`,
         "key": `${Category_12_Products.product_2.key}`,
@@ -1071,6 +1189,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_12.key}`,
         "parentTitle": `${Categories.category_12.title}`,
         "key": `${Category_12_Products.product_3.key}`,
@@ -1081,6 +1200,7 @@ export const ProductsData = [
         "technicalSpecifications": []
     },
     {
+        "showTitle": true,
         "parentkey": `${Categories.category_12.key}`,
         "parentTitle": `${Categories.category_12.title}`,
         "key": `${Category_12_Products.product_4.key}`,

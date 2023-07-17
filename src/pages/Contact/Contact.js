@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import PageBanner from '../../components/PageBanner/PageBanner';
 import ContactData from '../../data/contact.json';
+import axios from 'axios';
 
 function Contact() {
     const initContactInfo = {
@@ -25,7 +26,32 @@ function Contact() {
         event.preventDefault();
 
         if (isFormValid()) {
-            console.log(contactInfo)
+
+            const url = `http://indusgerman.v4utech.com/sendmail/index.php`;
+
+            axios(url, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Content-Type': 'application/json',
+                },
+            }).then(response => {
+                console.log(response)
+            })
+
+
+
+            // const xhr = new XMLHttpRequest();
+
+            // xhr.addEventListener('load', () => {
+            //     console.log(xhr.responseText)
+            // })
+
+            // const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
+            // xhr.open('GET', url);
+
+            // xhr.send();
         }
 
     }

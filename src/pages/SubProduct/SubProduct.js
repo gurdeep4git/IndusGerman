@@ -54,7 +54,7 @@ function SubProduct() {
 
                                 {innerProduct?.technicalSpecifications.length > 0 &&
                                     <div>
-                                        <h4>Technical Specifications</h4>
+                                        {innerProduct?.showTitle && <h4>Technical Specifications</h4>}
                                         <ul className='product-specs'>
                                             {
                                                 innerProduct?.technicalSpecifications.map((spec, index) => {
