@@ -42,16 +42,16 @@ function Contact() {
 
 
 
-            // const xhr = new XMLHttpRequest();
+            const xhr = new XMLHttpRequest();
 
-            // xhr.addEventListener('load', () => {
-            //     console.log(xhr.responseText)
-            // })
+            xhr.addEventListener('load', () => {
+                console.log(xhr.responseText)
+            })
 
-            // const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
-            // xhr.open('GET', url);
+            const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
+            xhr.open('GET', url);
 
-            // xhr.send();
+            xhr.send();
         }
 
     }

@@ -224,5 +224,26 @@ export const CategoriesData = [
             "General Dentistry",
             "Cranio-Mayillofacial Sets"
         ]
+    },
+    {
+        "key": `${Categories.category_13.key}`,
+        "title": `${Categories.category_13.title}`,
+        "imageURL": ``,
+        "description": [],
+        "specification": []
+    },
+    {
+        "key": `${Categories.category_14.key}`,
+        "title": `${Categories.category_14.title}`,
+        "imageURL": ``,
+        "description": [],
+        "specification": []
+    },
+    {
+        "key": `${Categories.category_15.key}`,
+        "title": `${Categories.category_15.title}`,
+        "imageURL": ``,
+        "description": [],
+        "specification": []
     }
 ]

@@ -46,6 +46,18 @@ export const Categories = {
     category_12: {
         key: 'dental-surgery',
         title: 'Dental Surgery',
+    },
+    category_13: {
+        key: 'cardio-surgery',
+        title: 'Cardio Surgery',
+    },
+    category_14: {
+        key: 'urology',
+        title: 'Urology',
+    },
+    category_15: {
+        key: 'gestro-surgery',
+        title: 'Gestro Surgery',
     }
 }
 
@@ -502,5 +514,29 @@ export const Category_12_Products = {
     product_4: {
         key: 'cranio-mayillofacial-sets',
         title: 'Cranio-Mayillofacial Sets'
+    }
+}
+
+export const Category_13_Products = {
+    parentKey: `${Categories.category_13.key}`,
+    product_1: {
+        key: 'test',
+        title: 'Test'
+    }
+}
+
+export const Category_14_Products = {
+    parentKey: `${Categories.category_14.key}`,
+    product_1: {
+        key: 'test',
+        title: 'Test'
+    }
+}
+
+export const Category_15_Products = {
+    parentKey: `${Categories.category_15.key}`,
+    product_1: {
+        key: 'test',
+        title: 'Test'
     }
 }

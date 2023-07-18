@@ -19,13 +19,17 @@
 
 @media (min-width: 1200px) {
     .feature-item {
-        min-height: 19.625rem;
+        min-height: 22.625rem;
     }
 }
 
 .feature-description,
 .description {
     line-height: 1.875rem;
+}
+
+.feature-description i {
+    margin-right: 5px;
 }
 
 .feature-title {

@@ -7,11 +7,6 @@ export const NavbarData = [
         "subMenu": []
     },
     {
-        "title": "About",
-        "link": "/about",
-        "subMenu": []
-    },
-    {
         "title": "Products",
         "link": "",
         "subMenu": [
@@ -62,6 +57,18 @@ export const NavbarData = [
             {
                 "title": `${Categories.category_12.title}`,
                 "link": `/product/${Categories.category_12.key}`
+            },
+            {
+                "title": `${Categories.category_13.title}`,
+                "link": `/product/${Categories.category_13.key}`
+            },
+            {
+                "title": `${Categories.category_14.title}`,
+                "link": `/product/${Categories.category_14.key}`
+            },
+            {
+                "title": `${Categories.category_15.title}`,
+                "link": `/product/${Categories.category_15.key}`
             }
         ]
     },
@@ -86,6 +93,11 @@ export const NavbarData = [
     {
         "title": "Clients",
         "link": "/clients",
+        "subMenu": []
+    },
+    {
+        "title": "CSR",
+        "link": "/csr",
         "subMenu": []
     },
     {

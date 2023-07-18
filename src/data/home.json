@@ -3,27 +3,22 @@
         {
             "icon": "",
             "title": "Quality Policy",
-            "description": "Every <b>Indus<span className='first-color'>German</span></b> product is guaranteed to be of the highest quality and to have never been compromised in terms of manufacture, functionality, or safety."
+            "description": "<b>Indus<span className='first-color'>German</span></b> is committed to design, develop, manufacture and sell quality medical devices, that are safe, effective & meet Global Standards"
         },
         {
             "icon": "",
             "title": "Private Labeling",
-            "description": "Take on private labelling for a variety of goods and make sure that all orders are delivered on schedule."
+            "description": "We offer products under your brand subject to fulfillment of local regulatory standards"
         },
         {
             "icon": "",
             "title": "Quality Products",
-            "description": "Years of experience, the use of technology as a guide, the importance of quality, the focus on the customer, and management as a guarantee."
-        },
-        {
-            "icon": "",
-            "title": "Highly Focused R&D",
-            "description": "We have the top position in all our businesses thanks to R&D and our tenacity in pursuing the highest standards."
+            "description": "Our commitment to provide world class products with an effective world class QMS that is continuously reviewed and updated and continuously improvement, meeting local regulatory standards and utilizing technology."
         },
         {
             "icon": "",
             "title": "Technical Collaboration with Global Leaders",
-            "description": "We have the top position in all our businesses thanks to R&D and our tenacity in pursuing the highest standards."
+            "description": "<i class='bi bi-chevron-right mr-2'></i>Divus Medical GmbH<br/><i class='bi bi-chevron-right'></i>Heine, Germany<br/><i class='bi bi-chevron-right'></i>Medizine UK<br/><i class='bi bi-chevron-right'></i>Forceto India<br/><i class='bi bi-chevron-right'></i>Basic Healthcare Products Pvt Ltd"
         }
     ],
     "about": [

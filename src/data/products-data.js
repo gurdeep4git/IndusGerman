@@ -11,7 +11,10 @@ import {
     Category_9_Products,
     Category_10_Products,
     Category_11_Products,
-    Category_12_Products
+    Category_12_Products,
+    Category_13_Products,
+    Category_14_Products,
+    Category_15_Products
 } from './keys';
 
 export const ProductsData = [
@@ -1206,6 +1209,39 @@ export const ProductsData = [
         "key": `${Category_12_Products.product_4.key}`,
         "title": `${Category_12_Products.product_4.title}`,
         "imageURL": `/assets/images/${Category_12_Products.product_4.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "showTitle": true,
+        "parentkey": `${Categories.category_13.key}`,
+        "parentTitle": `${Categories.category_13.title}`,
+        "key": `${Category_13_Products.product_1.key}`,
+        "title": `${Category_13_Products.product_1.title}`,
+        "imageURL": `/assets/images/${Category_13_Products.product_1.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "showTitle": true,
+        "parentkey": `${Categories.category_14.key}`,
+        "parentTitle": `${Categories.category_14.title}`,
+        "key": `${Category_14_Products.product_1.key}`,
+        "title": `${Category_14_Products.product_1.title}`,
+        "imageURL": `/assets/images/${Category_14_Products.product_1.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    },
+    {
+        "showTitle": true,
+        "parentkey": `${Categories.category_15.key}`,
+        "parentTitle": `${Categories.category_15.title}`,
+        "key": `${Category_15_Products.product_1.key}`,
+        "title": `${Category_15_Products.product_1.title}`,
+        "imageURL": `/assets/images/${Category_15_Products.product_1.key}.jpg`,
         "description": [],
         "specification": [],
         "technicalSpecifications": []

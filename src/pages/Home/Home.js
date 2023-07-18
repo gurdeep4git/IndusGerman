@@ -22,7 +22,7 @@ function Home() {
                         {
                             data.features.map((feature, index) => {
                                 return (
-                                    <div key={index} className={"col-md-6 col-lg-4 wow fadeInUp " + (index === 3 ? 'offset-lg-2' : '')} data-wow-delay={`${index * 0.5}s`}>
+                                    <div key={index} className={"col-md-6 col-lg-3 wow fadeInUp"} data-wow-delay={`${index * 0.5}s`}>
                                         <div className="feature-item py-4 px-4 py-lg-5 px-lg-4 mb-3 mb-lg-3">
                                             <h4 className="mb-3 feature-title">{feature.title}</h4>
                                             <p className="mb-4 feature-description">{parse(feature.description)}</p>

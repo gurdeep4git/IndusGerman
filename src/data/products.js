@@ -10,7 +10,10 @@ import {
     Category_9_Products,
     Category_10_Products,
     Category_11_Products,
-    Category_12_Products
+    Category_12_Products,
+    Category_13_Products,
+    Category_14_Products,
+    Category_15_Products
 } from './keys';
 
 export const ProductsNavData = [
@@ -463,6 +466,33 @@ export const ProductsNavData = [
             {
                 "title": `${Category_12_Products.product_4.title}`,
                 "link": `/product/${Category_12_Products.parentKey}/${Category_12_Products.product_4.key}`
+            }
+        ]
+    },
+    {
+        "key": `${Category_13_Products.parentKey}`,
+        "subProducts": [
+            {
+                "title": `${Category_13_Products.product_1.title}`,
+                "link": `/product/${Category_13_Products.parentKey}/${Category_13_Products.product_1.key}`
+            }
+        ]
+    },
+    {
+        "key": `${Category_14_Products.parentKey}`,
+        "subProducts": [
+            {
+                "title": `${Category_14_Products.product_1.title}`,
+                "link": `/product/${Category_14_Products.parentKey}/${Category_14_Products.product_1.key}`
+            }
+        ]
+    },
+    {
+        "key": `${Category_15_Products.parentKey}`,
+        "subProducts": [
+            {
+                "title": `${Category_15_Products.product_1.title}`,
+                "link": `/product/${Category_15_Products.parentKey}/${Category_15_Products.product_1.key}`
             }
         ]
     }
