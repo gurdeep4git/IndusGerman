@@ -5,12 +5,13 @@ import './ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
 import parse from 'html-react-parser';
 import SideMenu from '../../components/SideMenu/SideMenu';
+import { ProductsNavData } from "../../data/products";
 
 function ProductDetails() {
 
     const key = useLocation().pathname.split('/')[2];
     const product = CategoriesData.filter(p => p.key === key)[0];
-
+    const subProductsNav = ProductsNavData.filter(s => s.key === key)[0].subProducts;
 
     return (
         <>
@@ -50,7 +51,7 @@ function ProductDetails() {
                             </div>
                         </div>
                         <div className='col-lg-4'>
-                            <SideMenu />
+                            {subProductsNav.length > 0 && <SideMenu />}
                         </div>
                     </div>
                 </div>

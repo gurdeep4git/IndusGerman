@@ -69,7 +69,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_1.title}`,
         "key": `${Category_1_Products.product_3.key}`,
         "title": `${Category_1_Products.product_3.title}`,
-        "imageURL": ``,
+        "imageURL": `/assets/images/${Category_1_Products.product_3.key}.jpg`,
         "description": [],
         "specification": [
             "Automatic over temperature protection",
@@ -374,7 +374,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_3.title}`,
         "key": `${Category_3_Products.product_4.key}`,
         "title": `${Category_3_Products.product_4.title}`,
-        "imageURL": `/assets/images/${Category_3_Products.product_4.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
@@ -517,7 +517,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_4.title}`,
         "key": `${Category_4_Products.product_10.key}`,
         "title": `${Category_4_Products.product_10.title}`,
-        "imageURL": `/assets/images/${Category_4_Products.product_10.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
@@ -561,7 +561,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_5.title}`,
         "key": `${Category_5_Products.product_3.key}`,
         "title": `${Category_5_Products.product_3.title}`,
-        "imageURL": `/assets/images/${Category_5_Products.product_3.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
@@ -627,7 +627,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_2.key}`,
         "title": `${Category_6_Products.product_2.title}`,
-        "imageURL": `/assets/images/${Category_6_Products.product_2.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
@@ -682,7 +682,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_6.title}`,
         "key": `${Category_6_Products.product_7.key}`,
         "title": `${Category_6_Products.product_7.title}`,
-        "imageURL": `/assets/images/${Category_6_Products.product_7.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []
@@ -1208,7 +1208,7 @@ export const ProductsData = [
         "parentTitle": `${Categories.category_12.title}`,
         "key": `${Category_12_Products.product_4.key}`,
         "title": `${Category_12_Products.product_4.title}`,
-        "imageURL": `/assets/images/${Category_12_Products.product_4.key}.jpg`,
+        "imageURL": ``,
         "description": [],
         "specification": [],
         "technicalSpecifications": []

@@ -472,28 +472,19 @@ export const ProductsNavData = [
     {
         "key": `${Category_13_Products.parentKey}`,
         "subProducts": [
-            {
-                "title": `${Category_13_Products.product_1.title}`,
-                "link": `/product/${Category_13_Products.parentKey}/${Category_13_Products.product_1.key}`
-            }
+
         ]
     },
     {
         "key": `${Category_14_Products.parentKey}`,
         "subProducts": [
-            {
-                "title": `${Category_14_Products.product_1.title}`,
-                "link": `/product/${Category_14_Products.parentKey}/${Category_14_Products.product_1.key}`
-            }
+
         ]
     },
     {
         "key": `${Category_15_Products.parentKey}`,
         "subProducts": [
-            {
-                "title": `${Category_15_Products.product_1.title}`,
-                "link": `/product/${Category_15_Products.parentKey}/${Category_15_Products.product_1.key}`
-            }
+
         ]
     }
 ]

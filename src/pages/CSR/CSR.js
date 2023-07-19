@@ -15,7 +15,6 @@ function CSR() {
                             <div className='about-content wow fadeInUp'>
                                 <div className='row'>
                                     <div className='col'>
-                                        Jupiter Smile Foundation
                                         Jupiter Smile Foundation is a non-profit NGO with Regd. no._____________
                                         aims to feed hundreds of people on daily basis.
 
