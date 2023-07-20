@@ -1,4 +1,4 @@
-import { Categories, Services } from "./keys";
+import { Categories, Services, Csr } from "./keys";
 
 export const NavbarData = [
     {
@@ -98,7 +98,12 @@ export const NavbarData = [
     {
         "title": "CSR",
         "link": "/csr",
-        "subMenu": []
+        "subMenu": [
+            {
+                "title": `${Csr.csr_1.title}`,
+                "link": `/csr/${Csr.csr_1.key}`
+            },
+        ]
     },
     {
         "title": "Contact",

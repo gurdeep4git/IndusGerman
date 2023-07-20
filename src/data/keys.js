@@ -76,6 +76,14 @@ export const Services = {
     }
 }
 
+export const Csr = {
+    csr_1: {
+        key: 'jupiter-smile-foundation',
+        title: 'Jupiter Smile Foundation'
+    }
+
+}
+
 export const Category_1_Products = {
     parentKey: `${Categories.category_1.key}`,
     product_1: {

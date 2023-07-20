@@ -31,7 +31,7 @@ function App() {
           <Route path="/product/:name/:subproduct" element={<SubProduct />} />
           <Route path="/services/:name" element={<Service />} />
           <Route path="/clients" exact element={<Clients />} />
-          <Route path="/csr" exact element={<CSR />} />
+          <Route path="/csr/:name" exact element={<CSR />} />
           <Route path="/contact" exact element={<Contact />} />
         </Routes>
 

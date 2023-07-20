@@ -2,12 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { NavbarData } from '../../data/navbar-data.js';
 import './Navbar.css';
-import Contactbar from '../Contactbar/Contactbar';
 
 function Navbar() {
     return (
         <>
-            <Contactbar />
+            {/* <Contactbar /> */}
 
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
