@@ -1,10 +1,6 @@
 {
     "links": [
         {
-            "title": "About",
-            "link": "/about"
-        },
-        {
             "title": "Private Labeling",
             "link": "/services/private-labeling"
         },
