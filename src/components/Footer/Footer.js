@@ -78,18 +78,20 @@ function Footer() {
                             <h3 className='footer-title mb-3'>Contact Us</h3>
                             <div>
                                 <p>
+                                    IG Instruments Pvt Ltd.
+                                    <br />
                                     29, 1st floor, Patparganj
                                     <br />
                                     Delhi-110092
                                     <br />
                                     INDIA
-                                    <br />
+                                    {/* <br />
                                     <br />
                                     <strong>Phone: </strong>
                                     {ContactData.phone}
                                     <br />
                                     <strong>Email: </strong>
-                                    {ContactData.email}
+                                    {ContactData.email} */}
                                 </p>
                             </div>
                         </div>

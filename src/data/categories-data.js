@@ -245,5 +245,16 @@ export const CategoriesData = [
         "imageURL": ``,
         "description": [],
         "specification": []
+    },
+    {
+        "key": `${Categories.category_16.key}`,
+        "title": `${Categories.category_16.title}`,
+        "imageURL": ``,
+        "description": [],
+        "specification": [
+            "Fine surgery instruments",
+            "Open surgery instruments",
+            "General surgery instruments"
+        ]
     }
 ]

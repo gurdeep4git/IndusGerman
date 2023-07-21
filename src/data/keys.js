@@ -58,6 +58,10 @@ export const Categories = {
     category_15: {
         key: 'gestro-surgery',
         title: 'Gestro Surgery',
+    },
+    category_16: {
+        key: 'pediatric-surgery',
+        title: 'Pediatric Surgery',
     }
 }
 
@@ -543,6 +547,14 @@ export const Category_14_Products = {
 
 export const Category_15_Products = {
     parentKey: `${Categories.category_15.key}`,
+    product_1: {
+        key: 'test',
+        title: 'Test'
+    }
+}
+
+export const Category_16_Products = {
+    parentKey: `${Categories.category_16.key}`,
     product_1: {
         key: 'test',
         title: 'Test'

@@ -69,6 +69,10 @@ export const NavbarData = [
             {
                 "title": `${Categories.category_15.title}`,
                 "link": `/product/${Categories.category_15.key}`
+            },
+            {
+                "title": `${Categories.category_16.title}`,
+                "link": `/product/${Categories.category_16.key}`
             }
         ]
     },

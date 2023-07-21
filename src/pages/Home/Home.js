@@ -42,7 +42,7 @@ function Home() {
                         {
                             productsList.map((product, index) => {
                                 return (
-                                    <div key={index} className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div key={index} className={"col-md-6 col-lg-4 wow fadeInUp " + (index === 15 ? 'offset-lg-4' : '')} data-wow-delay="0.5s">
                                         <div className="service-item shadow py-3 px-3 py-lg-3 mb-3">
                                             <Link className="service-title" to={product.link}>
                                                 {product.title}

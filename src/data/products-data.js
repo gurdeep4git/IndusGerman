@@ -14,7 +14,8 @@ import {
     Category_12_Products,
     Category_13_Products,
     Category_14_Products,
-    Category_15_Products
+    Category_15_Products,
+    Category_16_Products
 } from './keys';
 
 export const ProductsData = [
@@ -1242,6 +1243,17 @@ export const ProductsData = [
         "key": `${Category_15_Products.product_1.key}`,
         "title": `${Category_15_Products.product_1.title}`,
         "imageURL": `/assets/images/${Category_15_Products.product_1.key}.jpg`,
+        "description": [],
+        "specification": [],
+        "technicalSpecifications": []
+    }
+    , {
+        "showTitle": true,
+        "parentkey": `${Categories.category_16.key}`,
+        "parentTitle": `${Categories.category_16.title}`,
+        "key": `${Category_16_Products.product_1.key}`,
+        "title": `${Category_16_Products.product_1.title}`,
+        "imageURL": `/assets/images/${Category_16_Products.product_1.key}.jpg`,
         "description": [],
         "specification": [],
         "technicalSpecifications": []

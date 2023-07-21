@@ -116,24 +116,27 @@ function Contact() {
                                     <div className='col-lg-3 offset-lg-1'>
                                         <div>
                                             <strong>Location</strong>
+                                            <br />
+                                            IG Instruments Pvt Ltd.
+                                            <br />
                                             <p>
                                                 29, 1st floor, Patparganj
                                                 <br />
                                                 Delhi-110092
                                                 <br />
                                                 INDIA
-                                                <br />
-                                                <br />
+                                                {/* <br />
+                                                <br /> */}
 
                                             </p>
                                         </div>
-                                        <div>
+                                        {/* <div>
                                             <strong>Phone: </strong>
                                             {ContactData.phone}
                                             <br />
                                             <strong>Email: </strong>
                                             {ContactData.email}
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
