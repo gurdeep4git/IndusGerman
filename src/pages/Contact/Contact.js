@@ -2,13 +2,17 @@ import React, { useState } from 'react'
 import PageBanner from '../../components/PageBanner/PageBanner';
 import ContactData from '../../data/contact.json';
 import axios from 'axios';
+import './Contact.css';
 
 function Contact() {
     const initContactInfo = {
         'fullName': '',
         'email': '',
         'subject': '',
-        'message': ''
+        'message': '',
+        'phone': '',
+        'institution': '',
+        'request': 'demonstration'
     }
 
     const [contactInfo, setContactInfo] = useState(initContactInfo);
@@ -81,21 +85,49 @@ function Contact() {
                                             <div className='row mb-lg-4 mb-3'>
                                                 <div className='col-lg-6'>
                                                     <div className='mb-3 mb-lg-0'>
-                                                        <label>Full Name</label>
+                                                        <label>Full Name<sup>*</sup></label>
                                                         <input type='text' onChange={onInputChangeHandler} value={contactInfo.fullName} name="fullName" className='form-control' required />
                                                     </div>
                                                 </div>
                                                 <div className='col-lg-6'>
                                                     <div>
-                                                        <label>Email</label>
+                                                        <label>Email<sup>*</sup></label>
                                                         <input type='email' onChange={onInputChangeHandler} value={contactInfo.email} name="email" className='form-control' required />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='row mb-lg-4 mb-3'>
+                                                <div className='col-lg-6'>
+                                                    <div className='mb-3 mb-lg-0'>
+                                                        <label>Phone<sup>*</sup></label>
+                                                        <input type='text' onChange={onInputChangeHandler} value={contactInfo.phone} name="phone" className='form-control' required />
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <div>
+                                                        <label>Institution<sup>*</sup></label>
+                                                        <input type='text' onChange={onInputChangeHandler} value={contactInfo.institution} name="email" className='form-control' required />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className='row mb-lg-4 mb-3'>
                                                 <div className='col'>
                                                     <div>
-                                                        <label>Subject</label>
+                                                        <label>Request<sup>*</sup></label>
+                                                        <select onChange={onInputChangeHandler} value={contactInfo.request} name="subject" className='form-control' required>
+                                                            <option value="feedback">Feedback</option>
+                                                            <option value="suggestion">Suggestion</option>
+                                                            <option value="query">Query</option>
+                                                            <option value="complaint">Complaint</option>
+                                                            <option value="demonstration">Demonstration</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='row mb-lg-4 mb-3'>
+                                                <div className='col'>
+                                                    <div>
+                                                        <label>Subject<sup>*</sup></label>
                                                         <input type='text' onChange={onInputChangeHandler} value={contactInfo.subject} name="subject" className='form-control' required />
                                                     </div>
                                                 </div>
@@ -103,7 +135,7 @@ function Contact() {
                                             <div className='row mb-lg-4 mb-3'>
                                                 <div className='col'>
                                                     <div>
-                                                        <label>Message</label>
+                                                        <label>Message<sup>*</sup></label>
                                                         <textarea onChange={onInputChangeHandler} value={contactInfo.message} name="message" className='form-control' rows="5" required></textarea>
                                                     </div>
                                                 </div>
