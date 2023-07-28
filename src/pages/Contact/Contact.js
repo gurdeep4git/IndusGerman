@@ -29,19 +29,19 @@ function Contact() {
     const onSubmitHandler = (event) => {
         event.preventDefault();
         console.log(contactInfo)
-        // if (isFormValid()) {
+        if (isFormValid()) {
 
-        //     const xhr = new XMLHttpRequest();
+            const xhr = new XMLHttpRequest();
 
-        //     xhr.addEventListener('load', () => {
-        //         console.log(xhr.responseText)
-        //     })
+            xhr.addEventListener('load', () => {
+                console.log(xhr.responseText)
+            })
 
-        //     const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&phone=${contactInfo.phone}&institution=${contactInfo.institution}&request=${contactInfo.request}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
-        //     xhr.open('GET', url);
+            const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&phone=${contactInfo.phone}&institution=${contactInfo.institution}&request=${contactInfo.request}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
+            xhr.open('GET', url);
 
-        //     xhr.send();
-        // }
+            xhr.send();
+        }
 
     }
 
