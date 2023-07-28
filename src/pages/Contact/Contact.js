@@ -28,35 +28,20 @@ function Contact() {
 
     const onSubmitHandler = (event) => {
         event.preventDefault();
+        console.log(contactInfo)
+        // if (isFormValid()) {
 
-        if (isFormValid()) {
+        //     const xhr = new XMLHttpRequest();
 
-            // const url = `http://indusgerman.v4utech.com/sendmail/index.php`;
+        //     xhr.addEventListener('load', () => {
+        //         console.log(xhr.responseText)
+        //     })
 
-            // axios(url, {
-            //     method: 'POST',
-            //     mode: 'no-cors',
-            //     headers: {
-            //         'Access-Control-Allow-Origin': '*',
-            //         'Content-Type': 'application/json',
-            //     },
-            // }).then(response => {
-            //     console.log(response)
-            // })
+        //     const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&phone=${contactInfo.phone}&institution=${contactInfo.institution}&request=${contactInfo.request}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
+        //     xhr.open('GET', url);
 
-
-
-            const xhr = new XMLHttpRequest();
-
-            xhr.addEventListener('load', () => {
-                console.log(xhr.responseText)
-            })
-
-            const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
-            xhr.open('GET', url);
-
-            xhr.send();
-        }
+        //     xhr.send();
+        // }
 
     }
 
@@ -100,13 +85,13 @@ function Contact() {
                                                 <div className='col-lg-6'>
                                                     <div className='mb-3 mb-lg-0'>
                                                         <label>Phone<sup>*</sup></label>
-                                                        <input type='text' onChange={onInputChangeHandler} value={contactInfo.phone} name="phone" className='form-control' required />
+                                                        <input type='text' maxLength="10" onChange={onInputChangeHandler} value={contactInfo.phone} name="phone" className='form-control' required />
                                                     </div>
                                                 </div>
                                                 <div className='col-lg-6'>
                                                     <div>
                                                         <label>Institution<sup>*</sup></label>
-                                                        <input type='text' onChange={onInputChangeHandler} value={contactInfo.institution} name="email" className='form-control' required />
+                                                        <input type='text' onChange={onInputChangeHandler} value={contactInfo.institution} name="institution" className='form-control' required />
                                                     </div>
                                                 </div>
                                             </div>
@@ -114,7 +99,7 @@ function Contact() {
                                                 <div className='col'>
                                                     <div>
                                                         <label>Request<sup>*</sup></label>
-                                                        <select onChange={onInputChangeHandler} value={contactInfo.request} name="subject" className='form-control' required>
+                                                        <select onChange={onInputChangeHandler} value={contactInfo.request} name="request" className='form-control' required>
                                                             <option value="feedback">Feedback</option>
                                                             <option value="suggestion">Suggestion</option>
                                                             <option value="query">Query</option>
