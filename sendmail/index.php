@@ -2,12 +2,36 @@
 header("Access-Control-Allow-Origin: *");
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 
+//Takes raw data from the request
+$json = file_get_contents('php://input');
+
+// Converts it into a PHP object
+$data = json_decode($json);
+
+print_r($data);
+die();
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
+    $json = file_get_contents('php://input');
+    $data = json_decode($json);
+
+    echo $data->fullName;
+    echo "*******";
+    die();
+
+    $name = $_POST['name'];
+    $email = $_POST['sendTo'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+}
 
 if(isset($_GET['name']) && isset($_GET['sendTo']) && isset($_GET['subject']) && isset($_GET['message'])){
 		$name = $_GET['name'];
@@ -40,8 +64,8 @@ try {
     // );
     
     //Recipients
-    $mail->setFrom('jaitegsingh22@gmail.com');
-    $mail->addAddress('g4gurdeep93@gmail.com');     //Add a recipient // whom to send
+    $mail->setFrom('jaitegsingh22@gmail.com');      // sender
+    $mail->addAddress('g4gurdeep93@gmail.com');     // user
 
 
     //Content

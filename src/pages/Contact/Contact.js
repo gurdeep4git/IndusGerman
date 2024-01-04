@@ -26,22 +26,44 @@ function Contact() {
         })
     }
 
-    const onSubmitHandler = (event) => {
+    const onSubmitHandler = async (event) => {
         event.preventDefault();
-        console.log(contactInfo)
-        if (isFormValid()) {
 
-            const xhr = new XMLHttpRequest();
-
-            xhr.addEventListener('load', () => {
-                console.log(xhr.responseText)
-            })
-
-            const url = `http://indusgerman.v4utech.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&phone=${contactInfo.phone}&institution=${contactInfo.institution}&request=${contactInfo.request}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
-            xhr.open('GET', url);
-
-            xhr.send();
+        if (!isFormValid()) {
+            return;
         }
+
+        // try {
+        //     const url = `http://indusgerman.com/sendmail/index.php`;
+        //     const response = await axios.post(url, JSON.stringify(contactInfo), {
+        //         headers: {
+        //             "Content-Type": 'application-json'
+        //         }
+        //     });
+        //     console.log(response)
+        // } catch (error) {
+        //     console.log(error)
+        // }
+
+        // if (isFormValid()) {
+
+        //     const url = `http://indusgerman.com/sendmail/index.php`;
+
+        //     axios.post(url, contactInfo)
+        //         .then(() => { })
+        //         .catch(() => { })
+
+        //     // const xhr = new XMLHttpRequest();
+
+        //     // xhr.addEventListener('load', () => {
+        //     //     console.log(xhr.responseText)
+        //     // })
+
+        //     // const url = `http://indusgerman.com/sendmail/index.php?sendTo=${contactInfo.email}&name=${contactInfo.fullName}&phone=${contactInfo.phone}&institution=${contactInfo.institution}&request=${contactInfo.request}&subject=${contactInfo.subject}&message=${contactInfo.message}`;
+        //     // xhr.open('GET', url);
+
+        //     // xhr.send();
+        // }
 
     }
 
@@ -142,18 +164,8 @@ function Contact() {
                                                 Delhi-110092
                                                 <br />
                                                 INDIA
-                                                {/* <br />
-                                                <br /> */}
-
                                             </p>
                                         </div>
-                                        {/* <div>
-                                            <strong>Phone: </strong>
-                                            {ContactData.phone}
-                                            <br />
-                                            <strong>Email: </strong>
-                                            {ContactData.email}
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
