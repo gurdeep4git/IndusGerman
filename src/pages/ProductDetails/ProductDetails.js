@@ -1,17 +1,17 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
-import { Link } from 'react-router-dom';
-import products from '../../data/products/products.json';
-import subProductsNavData from "../../data/sub-products-navbar.json";
+import { CategoriesData } from '../../data/categories-data';
 import './ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
 import parse from 'html-react-parser';
+import SideMenu from '../../components/SideMenu/SideMenu';
+import { ProductsNavData } from "../../data/products";
 
 function ProductDetails() {
 
     const key = useLocation().pathname.split('/')[2];
-    const product = products.filter(p => p.key === key)[0];
-    const subProductsNav = subProductsNavData.filter(s => s.key === key)[0].subProducts;
+    const product = CategoriesData.filter(p => p.key === key)[0];
+    const subProductsNav = ProductsNavData.filter(s => s.key === key)[0].subProducts;
 
     return (
         <>
@@ -25,7 +25,7 @@ function ProductDetails() {
                                 <h2 className='product-title'>{product?.title}</h2>
 
                                 {product?.imageURL &&
-                                    <img src={product?.imageURL} alt={product?.title} className='img-fluid' />
+                                    <img src={product?.imageURL} alt={product?.title} className='img-fluid my-3' />
                                 }
 
                                 {
@@ -51,22 +51,7 @@ function ProductDetails() {
                             </div>
                         </div>
                         <div className='col-lg-4'>
-                            <div className='sub-menu-container'>
-                                <ul className='sub-menu'>
-                                    {
-                                        subProductsNav.map((nav, index) => {
-                                            return (
-                                                <li key={index}>
-                                                    <Link to={nav?.link}>
-                                                        <i className="bi bi-chevron-right"></i>
-                                                        {nav?.title}
-                                                    </Link>
-                                                </li>
-                                            )
-                                        })
-                                    }
-                                </ul>
-                            </div>
+                            {subProductsNav.length > 0 && <SideMenu />}
                         </div>
                     </div>
                 </div>

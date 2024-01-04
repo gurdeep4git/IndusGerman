@@ -1,16 +1,16 @@
 {
     "links": [
         {
-            "title": "About",
-            "link": "/about"
-        },
-        {
             "title": "Private Labeling",
             "link": "/services/private-labeling"
         },
         {
             "title": "OEM Solutions",
             "link": "/services/oem-solutions"
+        },
+        {
+            "title": "Custom Designing",
+            "link": "/services/custom-designing"
         }
     ]
 }

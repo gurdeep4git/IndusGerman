@@ -1,0 +1,38 @@
+{
+    "title": "Our Clients",
+    "clients": [
+        "AIIMS, Delhi",
+        "AIIMS, Gorakhpur",
+        "AIIMS, Manglagiri",
+        "AIIMS, Rajkot",
+        "AIIMS, Jammu",
+        "AIIMS, Bhatinda",
+        "AIIMS, Raebarelly",
+        "AIIMS, Bilaspur",
+        "AIIMS, Nagpur",
+        "NCI, Jhajjar",
+        "Govt. Medical College, Datia-475661",
+        "HLL Infratech Services (HITES)",
+        "Yashoda Hospitals",
+        "Kailash Hospitals",
+        "Govt. Medical College, Mizoram",
+        "AIIMS, Bibi Nagar"
+    ],
+    "clientsmore": [
+        "Govt. Medical College, Khandwa-450001",
+        "Govt. Medical College, Ratlam",
+        "Govt. Medical College, Shiv puri",
+        "Govt. Medical College, Vidisha",
+        "Govt. Medical College, Shahdol",
+        "Institute of Medical Sciences, Chhindwara-480001",
+        "SMS Medical College, Jaipur-302004",
+        "GSVM Medical College Swaroop Nagar, Kanpur-208002",
+        "SN Medical College Moti Katra, Agra-282002",
+        "Atal Institute of Medical Sciences, Shimla-171001",
+        "AIIMS, Gawhati",
+        "AIIMS, Bhopal",
+        "SSPHPGTI, Noida UP",
+        "ESI Hospitals, Faridabad",
+        "Safdarjung Hospital, Delhi"
+    ]
+}

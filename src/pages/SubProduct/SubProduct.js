@@ -1,17 +1,15 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
-import product from '../../data/products/sub-products.json';
-import subProductsNavData from "../../data/sub-products-navbar.json";
-import { Link } from 'react-router-dom';
+import { ProductsData } from '../../data/products-data';
 import '../ProductDetails/ProductDetails.css';
 import PageBanner from '../../components/PageBanner/PageBanner';
+import SideMenu from '../../components/SideMenu/SideMenu';
 
 function SubProduct() {
 
-    const parentKey = useLocation().pathname.split('/')[2];
     const key = useLocation().pathname.split('/')[3];
-    const innerProduct = product.filter(i => i.key === key)[0];
-    const subProductsNav = subProductsNavData.filter(s => s.key === parentKey)[0].subProducts;
+    const innerProduct = ProductsData.filter(i => i.key === key)[0];
+
 
     return (
         <>
@@ -25,7 +23,7 @@ function SubProduct() {
                                 <h2 className='product-title'>{innerProduct?.title}</h2>
 
                                 {innerProduct?.imageURL &&
-                                    <img src={innerProduct?.imageURL} alt={innerProduct?.title} className='img-fluid' />
+                                    <img src={innerProduct?.imageURL} alt={innerProduct?.title} className='img-fluid my-3' />
                                 }
 
                                 {
@@ -56,7 +54,7 @@ function SubProduct() {
 
                                 {innerProduct?.technicalSpecifications.length > 0 &&
                                     <div>
-                                        <h4>Technical Specifications</h4>
+                                        {innerProduct?.showTitle && <h4>Technical Specifications</h4>}
                                         <ul className='product-specs'>
                                             {
                                                 innerProduct?.technicalSpecifications.map((spec, index) => {
@@ -74,22 +72,7 @@ function SubProduct() {
                             </div>
                         </div>
                         <div className='col-lg-4'>
-                            <div className='sub-menu-container'>
-                                <ul className='sub-menu'>
-                                    {
-                                        subProductsNav.map((nav, index) => {
-                                            return (
-                                                <li key={index}>
-                                                    <Link to={nav?.link}>
-                                                        <i className="bi bi-chevron-right"></i>
-                                                        {nav?.title}
-                                                    </Link>
-                                                </li>
-                                            )
-                                        })
-                                    }
-                                </ul>
-                            </div>
+                            <SideMenu />
                         </div>
                     </div>
                 </div>

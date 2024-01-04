@@ -9,6 +9,9 @@ import Service from "./pages/Service/Service";
 import BackToTop from "./components/BackToTop/BackToTop";
 import { ScrollTop } from "./components/ScrollTop/ScrollTop";
 import { WowAnimate } from "./components/WowAnimate/WowAnimate";
+import Clients from './pages/Clients/Clients';
+import Contact from './pages/Contact/Contact';
+import CSR from './pages/CSR/CSR';
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
           <Route path="/product/:name" element={<ProductDetails />} />
           <Route path="/product/:name/:subproduct" element={<SubProduct />} />
           <Route path="/services/:name" element={<Service />} />
+          <Route path="/clients" exact element={<Clients />} />
+          <Route path="/csr/:name" exact element={<CSR />} />
+          <Route path="/contact" exact element={<Contact />} />
         </Routes>
 
         <Footer />
